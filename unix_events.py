@@ -660,3 +660,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 'os.sendfile() is not available')
 
+        try:
+
