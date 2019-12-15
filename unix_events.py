@@ -1050,3 +1050,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def is_closing(self):
+
