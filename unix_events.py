@@ -406,3 +406,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             except BaseException:
 
+                transp.close()
+
