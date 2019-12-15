@@ -2410,3 +2410,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def close(self):
 
+        self._callbacks.clear()
+
