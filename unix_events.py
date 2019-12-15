@@ -392,3 +392,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+            watcher.add_child_handler(transp.get_pid(),
+
