@@ -1174,3 +1174,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             self._protocol = None
 
+            raise ValueError('Pipe transport is only for '
+
