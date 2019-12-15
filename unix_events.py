@@ -2386,3 +2386,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     # To achieve this it has empty attach_loop() method
 
+    # and doesn't accept explicit loop argument
+
