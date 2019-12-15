@@ -694,3 +694,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _sock_sendfile_native_impl(self, fut, registered_fd, sock, fileno,
+
