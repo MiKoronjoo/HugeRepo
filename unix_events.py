@@ -2768,3 +2768,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         super().__init__()
 
+        self._watcher = None
+
