@@ -2192,3 +2192,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+    def __enter__(self):
+
