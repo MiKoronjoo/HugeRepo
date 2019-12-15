@@ -708,3 +708,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # EAGAIN, and I am willing to take a hit in that case in
 
+            # order to simplify the common case.
+
