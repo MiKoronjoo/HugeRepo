@@ -166,3 +166,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise TypeError('coroutines cannot be used '
 
+                            'with add_signal_handler()')
+
