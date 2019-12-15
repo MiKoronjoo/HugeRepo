@@ -1244,3 +1244,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+            bufsize = self.get_write_buffer_size()
+
