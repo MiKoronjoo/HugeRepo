@@ -2316,3 +2316,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     # unknown child
 
+                    if self._forks:
+
