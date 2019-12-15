@@ -1452,3 +1452,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def close(self):
+
