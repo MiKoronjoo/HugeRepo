@@ -1772,3 +1772,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def close(self):
 
+        self.attach_loop(None)
+
