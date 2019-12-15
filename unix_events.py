@@ -1512,3 +1512,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._buffer:
 
+            self._loop._remove_writer(self._fileno)
+
