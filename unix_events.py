@@ -758,3 +758,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # If we have an ENOTCONN and this isn't a first call to
 
+                # sendfile(), i.e. the connection was closed in the middle
+
