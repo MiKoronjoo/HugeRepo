@@ -900,3 +900,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             self._fileno = None
 
+            self._protocol = None
+
