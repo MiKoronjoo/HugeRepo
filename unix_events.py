@@ -2290,3 +2290,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 # No more child processes exist.
 
+                return
+
