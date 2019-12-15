@@ -2348,3 +2348,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 logger.warning(
 
+                    'Caught subprocess termination from unknown pid: '
+
