@@ -1624,3 +1624,5 @@ class AbstractChildWatcher:
 
         waitpid(-1), there should be only one active object per process.
 
+    '''
+
