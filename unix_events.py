@@ -2756,3 +2756,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
+
