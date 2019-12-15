@@ -2062,3 +2062,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     def remove_child_handler(self, pid):
 
+        try:
+
