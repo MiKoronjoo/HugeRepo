@@ -1228,3 +1228,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         selector = getattr(self._loop, '_selector', None)
 
+        if self._pipe is not None and selector is not None:
+
