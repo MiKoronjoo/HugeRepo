@@ -1596,3 +1596,5 @@ class AbstractChildWatcher:
 
     '''Abstract base class for monitoring child processes.
 
+    Objects derived from this class monitor a collection of subprocesses and
+
