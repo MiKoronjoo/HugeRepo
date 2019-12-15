@@ -438,3 +438,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if ssl:
 
+            if server_hostname is None:
+
