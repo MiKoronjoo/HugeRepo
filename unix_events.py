@@ -1822,3 +1822,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         pidfd, callback, args = self._callbacks.pop(pid)
 
+        self._loop._remove_reader(pidfd)
+
