@@ -112,3 +112,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         super().close()
 
+        if not sys.is_finalizing():
+
