@@ -1532,3 +1532,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             self._pipe.close()
 
+            self._pipe = None
+
