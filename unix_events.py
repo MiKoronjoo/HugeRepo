@@ -1236,3 +1236,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             if polling:
 
+                info.append('polling')
+
