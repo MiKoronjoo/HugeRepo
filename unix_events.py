@@ -2744,3 +2744,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             logger.warning('Loop %r that handles pid %r is closed', loop, pid)
 
+        else:
+
