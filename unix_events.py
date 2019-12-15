@@ -2800,3 +2800,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
 
 
+        super().set_event_loop(loop)
+
