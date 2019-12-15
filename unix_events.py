@@ -1464,3 +1464,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def __del__(self, _warn=warnings.warn):
 
+        if self._pipe is not None:
+
