@@ -896,3 +896,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 stat.S_ISCHR(mode)):
 
+            self._pipe = None
+
