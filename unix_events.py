@@ -2188,3 +2188,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         self._zombies.clear()
 
+        super().close()
+
