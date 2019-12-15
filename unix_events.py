@@ -1478,3 +1478,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def _fatal_error(self, exc, message='Fatal error on pipe transport'):
+
