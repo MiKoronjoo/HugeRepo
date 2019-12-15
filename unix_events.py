@@ -2740,3 +2740,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+        if loop.is_closed():
+
