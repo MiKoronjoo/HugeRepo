@@ -2474,3 +2474,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         # The reason to do it here is that attach_loop() is called from
 
+        # unix policy only for the main thread.
+
