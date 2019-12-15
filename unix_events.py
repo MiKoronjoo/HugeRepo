@@ -1260,3 +1260,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def get_write_buffer_size(self):
+
