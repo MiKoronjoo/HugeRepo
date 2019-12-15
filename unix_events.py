@@ -1668,3 +1668,5 @@ class AbstractChildWatcher:
 
         first detached before attaching to the new loop.
 
+        Note: loop may be None.
+
