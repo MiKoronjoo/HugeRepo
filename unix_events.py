@@ -254,3 +254,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         else:
 
+            self._add_callback_signalsafe(handle)
+
