@@ -396,3 +396,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                       self._child_watcher_callback, transp)
 
+            try:
+
