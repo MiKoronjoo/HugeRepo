@@ -1826,3 +1826,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         try:
 
+            _, status = os.waitpid(pid, 0)
+
