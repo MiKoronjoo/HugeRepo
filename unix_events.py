@@ -2582,3 +2582,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def _sig_chld(self, signum, frame):
 
+        try:
+
