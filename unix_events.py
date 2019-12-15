@@ -1730,3 +1730,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     process termination. In some respects, PidfdChildWatcher is a 'Goldilocks'
 
+    child watcher implementation. It doesn't require signals or threads, doesn't
+
