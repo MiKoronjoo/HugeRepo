@@ -1034,3 +1034,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if self._loop.get_debug():
 
+            logger.debug('%r resumes reading', self)
+
