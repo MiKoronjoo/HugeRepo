@@ -1344,3 +1344,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 data = memoryview(data)[n:]
 
+            self._loop._add_writer(self._fileno, self._write_ready)
+
