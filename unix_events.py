@@ -1086,3 +1086,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         else:
 
+            self._loop.call_exception_handler({
+
