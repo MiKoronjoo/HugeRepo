@@ -2602,3 +2602,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     '''Threaded child watcher implementation.
 
+    The watcher uses a thread per process
+
