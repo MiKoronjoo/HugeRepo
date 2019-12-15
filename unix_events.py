@@ -354,3 +354,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                    extra=None):
 
+        return _UnixWritePipeTransport(self, pipe, protocol, waiter, extra)
+
