@@ -280,3 +280,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if sig == signal.SIGINT:
 
+            handler = signal.default_int_handler
+
