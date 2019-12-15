@@ -2122,3 +2122,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             returncode = _compute_returncode(status)
 
+            if self._loop.get_debug():
+
