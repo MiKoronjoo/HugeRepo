@@ -1638,3 +1638,5 @@ class AbstractChildWatcher:
 
         process replaces the previous handler.
 
+        Note: callback() must be thread-safe.
+
