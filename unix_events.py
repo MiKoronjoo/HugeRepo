@@ -760,3 +760,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # sendfile(), i.e. the connection was closed in the middle
 
+                # of the operation, normalize the error to ConnectionError
+
