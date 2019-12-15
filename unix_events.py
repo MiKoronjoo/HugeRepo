@@ -1620,3 +1620,5 @@ class AbstractChildWatcher:
 
         Implementations of this class must be thread-safe.
 
+        Since child watcher objects may catch the SIGCHLD signal and call
+
