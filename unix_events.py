@@ -1680,3 +1680,5 @@ class AbstractChildWatcher:
 
         '''Close the watcher.
 
+        This must be called to make sure that any underlying resource is freed.
+
