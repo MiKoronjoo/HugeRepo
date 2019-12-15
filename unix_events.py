@@ -2486,3 +2486,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 logger.warning('Previous SIGCHLD handler was set by non-Python code, '
 
+                               'restore to default handler on watcher close.')
+
