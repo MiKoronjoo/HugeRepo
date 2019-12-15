@@ -2146,3 +2146,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
                                pid, exc_info=True)
 
+        else:
+
