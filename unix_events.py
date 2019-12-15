@@ -250,3 +250,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if handle._cancelled:
 
+            self.remove_signal_handler(sig)  # Remove it properly.
+
