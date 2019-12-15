@@ -1472,3 +1472,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def abort(self):
+
