@@ -1850,3 +1850,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
 
 
+        os.close(pidfd)
+
