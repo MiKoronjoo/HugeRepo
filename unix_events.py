@@ -334,3 +334,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise TypeError(f'sig must be an int, not {sig!r}')
 
+
+
