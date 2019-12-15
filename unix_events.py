@@ -1022,3 +1022,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def resume_reading(self):
+
