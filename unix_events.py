@@ -174,3 +174,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         try:
 
+            # set_wakeup_fd() raises ValueError if this is not the
+
