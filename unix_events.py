@@ -1428,3 +1428,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if not self._buffer:
 
+            self._loop._remove_reader(self._fileno)
+
