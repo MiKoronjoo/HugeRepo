@@ -1302,3 +1302,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             if self._conn_lost >= constants.LOG_THRESHOLD_FOR_CONNLOST_WRITES:
 
+                logger.warning('pipe closed by peer or '
+
