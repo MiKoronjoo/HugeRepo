@@ -2836,3 +2836,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
 
 
+        assert watcher is None or isinstance(watcher, AbstractChildWatcher)
+
