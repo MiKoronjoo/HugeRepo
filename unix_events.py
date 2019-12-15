@@ -2350,3 +2350,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     'Caught subprocess termination from unknown pid: '
 
+                    '%d -> %d', pid, returncode)
+
