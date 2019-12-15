@@ -1374,3 +1374,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         except BaseException as exc:
 
+            self._buffer.clear()
+
