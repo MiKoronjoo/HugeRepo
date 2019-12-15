@@ -1446,3 +1446,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def is_closing(self):
+
