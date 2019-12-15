@@ -116,3 +116,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             for sig in list(self._signal_handlers):
 
+                self.remove_signal_handler(sig)
+
