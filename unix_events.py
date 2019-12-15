@@ -508,3 +508,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             sock, protocol_factory, ssl, server_hostname,
 
+            ssl_handshake_timeout=ssl_handshake_timeout)
+
