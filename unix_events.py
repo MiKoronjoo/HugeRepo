@@ -198,3 +198,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         try:
 
+            # Register a dummy signal handler to ask Python to write the signal
+
