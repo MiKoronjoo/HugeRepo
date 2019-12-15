@@ -2284,3 +2284,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             try:
 
+                pid, status = os.waitpid(-1, os.WNOHANG)
+
