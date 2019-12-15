@@ -164,3 +164,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 coroutines.iscoroutinefunction(callback)):
 
+            raise TypeError('coroutines cannot be used '
+
