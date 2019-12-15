@@ -38,3 +38,5 @@ from . import coroutines
 
 from . import events
 
+from . import exceptions
+
