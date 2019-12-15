@@ -2656,3 +2656,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                    if thread.is_alive()]
 
+        if threads:
+
