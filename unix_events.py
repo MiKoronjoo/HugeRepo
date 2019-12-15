@@ -1864,3 +1864,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         except KeyError:
 
+            return False
+
