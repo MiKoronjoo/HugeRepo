@@ -2672,3 +2672,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         thread = threading.Thread(target=self._do_waitpid,
 
+                                  name=f'waitpid-{next(self._pid_counter)}',
+
