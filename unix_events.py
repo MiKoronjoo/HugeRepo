@@ -1168,3 +1168,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if not (is_char or is_fifo or is_socket):
 
+            self._pipe = None
+
