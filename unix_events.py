@@ -1886,3 +1886,5 @@ def _compute_returncode(status):
 
     elif os.WIFEXITED(status):
 
+        # The child process exited (e.g sys.exit()).
+
