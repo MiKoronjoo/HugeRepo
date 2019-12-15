@@ -2670,3 +2670,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         loop = events.get_running_loop()
 
+        thread = threading.Thread(target=self._do_waitpid,
+
