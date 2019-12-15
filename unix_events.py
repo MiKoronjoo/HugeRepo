@@ -1222,3 +1222,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         elif self._closing:
 
+            info.append('closing')
+
