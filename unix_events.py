@@ -678,3 +678,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         blocksize = count if count else fsize
 
+        if not blocksize:
+
