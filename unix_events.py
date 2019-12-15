@@ -1814,3 +1814,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             self._loop._add_reader(pidfd, self._do_wait, pid)
 
+            self._callbacks[pid] = pidfd, callback, args
+
