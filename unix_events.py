@@ -2142,3 +2142,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             if self._loop.get_debug():
 
+                logger.warning('Child watcher got an unexpected pid: %r',
+
