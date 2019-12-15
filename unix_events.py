@@ -2640,3 +2640,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     def __enter__(self):
 
+        return self
+
