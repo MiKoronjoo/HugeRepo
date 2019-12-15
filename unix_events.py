@@ -1722,3 +1722,5 @@ class AbstractChildWatcher:
 
 
 
+class PidfdChildWatcher(AbstractChildWatcher):
+
