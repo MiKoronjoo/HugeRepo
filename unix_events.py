@@ -2540,3 +2540,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 # The child process is still alive.
 
+                return
+
