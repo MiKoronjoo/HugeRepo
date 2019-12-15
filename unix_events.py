@@ -2654,3 +2654,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         threads = [thread for thread in list(self._threads.values())
 
+                   if thread.is_alive()]
+
