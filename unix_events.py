@@ -1704,3 +1704,5 @@ class AbstractChildWatcher:
 
     def __enter__(self):
 
+        '''Enter the watcher's context and allow starting new processes
+
