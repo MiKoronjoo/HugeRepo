@@ -290,3 +290,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         try:
 
+            signal.signal(sig, handler)
+
