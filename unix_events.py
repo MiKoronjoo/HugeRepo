@@ -654,3 +654,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             os.sendfile
 
+        except AttributeError:
+
