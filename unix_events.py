@@ -2234,3 +2234,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def add_child_handler(self, pid, callback, *args):
 
+        assert self._forks, 'Must use the context manager'
+
