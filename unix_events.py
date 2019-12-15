@@ -346,3 +346,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                   extra=None):
 
+        return _UnixReadPipeTransport(self, pipe, protocol, waiter, extra)
+
