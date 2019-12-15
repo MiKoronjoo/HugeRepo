@@ -852,3 +852,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 if fd != -1:
 
+                    self.remove_writer(fd)
+
