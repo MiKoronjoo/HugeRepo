@@ -184,3 +184,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             signal.set_wakeup_fd(self._csock.fileno())
 
+        except (ValueError, OSError) as exc:
+
