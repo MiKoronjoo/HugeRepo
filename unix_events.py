@@ -1032,3 +1032,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._loop._add_reader(self._fileno, self._read_ready)
 
+        if self._loop.get_debug():
+
