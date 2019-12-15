@@ -1166,3 +1166,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         is_socket = stat.S_ISSOCK(mode)
 
+        if not (is_char or is_fifo or is_socket):
+
