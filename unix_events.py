@@ -2734,3 +2734,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             if loop.get_debug():
 
+                logger.debug('process %s exited with returncode %s',
+
