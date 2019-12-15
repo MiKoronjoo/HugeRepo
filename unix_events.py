@@ -2488,3 +2488,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                                'restore to default handler on watcher close.')
 
+                self._saved_sighandler = signal.SIG_DFL
+
