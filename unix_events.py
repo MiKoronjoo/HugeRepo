@@ -2514,3 +2514,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         try:
 
+            pid, status = os.waitpid(expected_pid, os.WNOHANG)
+
