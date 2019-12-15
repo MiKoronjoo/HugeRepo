@@ -364,3 +364,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                          extra=None, **kwargs):
 
+        with events.get_child_watcher() as watcher:
+
