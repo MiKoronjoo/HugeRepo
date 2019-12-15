@@ -216,3 +216,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             del self._signal_handlers[sig]
 
+            if not self._signal_handlers:
+
