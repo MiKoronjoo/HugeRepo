@@ -2170,3 +2170,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     '''
 
+    def __init__(self):
+
