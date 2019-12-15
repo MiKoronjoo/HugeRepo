@@ -1462,3 +1462,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def __del__(self, _warn=warnings.warn):
+
