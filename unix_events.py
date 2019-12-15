@@ -1598,3 +1598,5 @@ class AbstractChildWatcher:
 
     Objects derived from this class monitor a collection of subprocesses and
 
+    report their termination or interruption by a signal.
+
