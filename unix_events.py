@@ -978,3 +978,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         except (BlockingIOError, InterruptedError):
 
+            pass
+
