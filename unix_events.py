@@ -1924,3 +1924,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
     def is_active(self):
 
+        return self._loop is not None and self._loop.is_running()
+
