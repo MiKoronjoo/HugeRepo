@@ -2314,3 +2314,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 except KeyError:
 
+                    # unknown child
+
