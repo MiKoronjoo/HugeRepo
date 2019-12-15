@@ -2032,3 +2032,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         self._callbacks.clear()
 
+        super().close()
+
