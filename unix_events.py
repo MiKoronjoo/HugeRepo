@@ -2788,3 +2788,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
     def set_event_loop(self, loop):
 
+        '''Set the event loop.
+
