@@ -162,3 +162,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if (coroutines.iscoroutine(callback) or
 
+                coroutines.iscoroutinefunction(callback)):
+
