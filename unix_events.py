@@ -1838,3 +1838,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             logger.warning(
 
+                'child process pid %d exit status already read: '
+
