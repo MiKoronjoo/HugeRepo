@@ -2390,3 +2390,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     # for add_child_handler()/remove_child_handler()
 
+    # but retrieves the current loop by get_running_loop()
+
