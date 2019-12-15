@@ -1878,3 +1878,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
 def _compute_returncode(status):
 
+    if os.WIFSIGNALED(status):
+
