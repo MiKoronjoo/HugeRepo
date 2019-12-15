@@ -828,3 +828,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 self.add_writer(fd, self._sock_sendfile_native_impl, fut,
 
+                                fd, sock, fileno,
+
