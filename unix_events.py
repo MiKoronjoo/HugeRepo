@@ -448,3 +448,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if server_hostname is not None:
 
+                raise ValueError('server_hostname is only meaningful with ssl')
+
