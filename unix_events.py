@@ -478,3 +478,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 await self.sock_connect(sock, path)
 
+            except:
+
