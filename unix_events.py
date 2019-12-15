@@ -2382,3 +2382,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     # Implementation note:
 
+    # The class keeps compatibility with AbstractChildWatcher ABC
+
