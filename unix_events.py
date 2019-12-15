@@ -1480,3 +1480,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def _fatal_error(self, exc, message='Fatal error on pipe transport'):
 
+        # should be called by exception handler only
+
