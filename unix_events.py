@@ -1250,3 +1250,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         elif self._pipe is not None:
 
+            info.append('open')
+
