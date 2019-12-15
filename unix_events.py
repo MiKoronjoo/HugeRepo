@@ -2318,3 +2318,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     if self._forks:
 
+                        # It may not be registered yet.
+
