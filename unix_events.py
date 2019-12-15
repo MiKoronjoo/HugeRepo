@@ -782,3 +782,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # plain send().
 
+                err = exceptions.SendfileNotAvailableError(
+
