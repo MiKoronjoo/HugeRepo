@@ -722,3 +722,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             blocksize = count - total_sent
 
+            if blocksize <= 0:
+
