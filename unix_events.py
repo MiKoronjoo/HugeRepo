@@ -2286,3 +2286,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 pid, status = os.waitpid(-1, os.WNOHANG)
 
+            except ChildProcessError:
+
