@@ -2750,3 +2750,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+        self._threads.pop(expected_pid)
+
