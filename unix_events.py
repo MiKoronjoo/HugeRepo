@@ -1120,3 +1120,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         finally:
 
+            self._pipe.close()
+
