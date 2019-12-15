@@ -2010,3 +2010,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+class SafeChildWatcher(BaseChildWatcher):
+
