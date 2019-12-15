@@ -1330,3 +1330,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             except BaseException as exc:
 
+                self._conn_lost += 1
+
