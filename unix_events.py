@@ -104,3 +104,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         super().__init__(selector)
 
+        self._signal_handlers = {}
+
