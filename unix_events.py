@@ -700,3 +700,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         fd = sock.fileno()
 
+        if registered_fd is not None:
+
