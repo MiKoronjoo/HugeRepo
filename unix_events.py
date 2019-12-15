@@ -1288,3 +1288,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         assert isinstance(data, (bytes, bytearray, memoryview)), repr(data)
 
+        if isinstance(data, bytearray):
+
