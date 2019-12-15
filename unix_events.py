@@ -702,3 +702,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if registered_fd is not None:
 
+            # Remove the callback early.  It should be rare that the
+
