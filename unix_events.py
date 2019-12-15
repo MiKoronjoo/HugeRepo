@@ -428,3 +428,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             self, protocol_factory, path=None, *,
 
+            ssl=None, sock=None,
+
