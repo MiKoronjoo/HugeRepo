@@ -1606,3 +1606,5 @@ class AbstractChildWatcher:
 
     its activity until the new process if fully registered (this is needed to
 
+    prevent a race condition in some implementations).
+
