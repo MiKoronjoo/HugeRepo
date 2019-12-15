@@ -892,3 +892,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if not (stat.S_ISFIFO(mode) or
 
+                stat.S_ISSOCK(mode) or
+
