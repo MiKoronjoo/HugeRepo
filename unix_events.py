@@ -330,3 +330,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         '''
 
+        if not isinstance(sig, int):
+
