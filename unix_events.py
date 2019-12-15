@@ -2722,3 +2722,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             returncode = 255
 
+            logger.warning(
+
