@@ -630,3 +630,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         server = base_events.Server(self, [sock], protocol_factory,
 
+                                    ssl, backlog, ssl_handshake_timeout)
+
