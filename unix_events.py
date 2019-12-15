@@ -1006,3 +1006,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def pause_reading(self):
+
