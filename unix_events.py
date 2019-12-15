@@ -1664,3 +1664,5 @@ class AbstractChildWatcher:
 
         '''Attach the watcher to an event loop.
 
+        If the watcher was previously attached to an event loop, then it is
+
