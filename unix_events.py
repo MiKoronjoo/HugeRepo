@@ -522,3 +522,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             ssl_handshake_timeout=None,
 
+            start_serving=True):
+
