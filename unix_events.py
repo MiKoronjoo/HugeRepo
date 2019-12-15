@@ -366,3 +366,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         with events.get_child_watcher() as watcher:
 
+            if not watcher.is_active():
+
