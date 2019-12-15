@@ -2078,3 +2078,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+        for pid in list(self._callbacks):
+
