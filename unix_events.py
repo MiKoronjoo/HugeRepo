@@ -1896,3 +1896,5 @@ def _compute_returncode(status):
 
         # This shouldn't happen, but if it does, let's just
 
+        # return that status; perhaps that helps debug it.
+
