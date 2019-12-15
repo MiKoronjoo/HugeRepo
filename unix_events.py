@@ -2178,3 +2178,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         self._zombies = {}
 
+        self._forks = 0
+
