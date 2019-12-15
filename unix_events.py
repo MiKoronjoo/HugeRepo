@@ -2028,3 +2028,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+    def close(self):
+
