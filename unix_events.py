@@ -2420,3 +2420,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 logger.warning('SIGCHLD handler was changed by outside code')
 
+            else:
+
