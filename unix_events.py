@@ -2600,3 +2600,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 class ThreadedChildWatcher(AbstractChildWatcher):
 
+    '''Threaded child watcher implementation.
+
