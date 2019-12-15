@@ -2494,3 +2494,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             # Set SA_RESTART to limit EINTR occurrences.
 
+            signal.siginterrupt(signal.SIGCHLD, False)
+
