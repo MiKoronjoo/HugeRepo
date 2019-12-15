@@ -1324,3 +1324,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 n = 0
 
+            except (SystemExit, KeyboardInterrupt):
+
