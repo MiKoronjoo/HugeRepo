@@ -842,3 +842,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _sock_add_cancellation_callback(self, fut, sock):
+
