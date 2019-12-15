@@ -2586,3 +2586,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             self._do_waitpid_all()
 
+        except (SystemExit, KeyboardInterrupt):
+
