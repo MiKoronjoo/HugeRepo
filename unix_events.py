@@ -430,3 +430,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             ssl=None, sock=None,
 
+            server_hostname=None,
+
