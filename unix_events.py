@@ -1400,3 +1400,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                     self._loop._remove_reader(self._fileno)
 
+                    self._call_connection_lost(None)
+
