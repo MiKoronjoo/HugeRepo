@@ -64,3 +64,5 @@ __all__ = (
 
     'MultiLoopChildWatcher', 'ThreadedChildWatcher',
 
+    'DefaultEventLoopPolicy',
+
