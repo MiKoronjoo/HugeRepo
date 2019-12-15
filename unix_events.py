@@ -2140,3 +2140,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             # after os.waitpid() returns.
 
+            if self._loop.get_debug():
+
