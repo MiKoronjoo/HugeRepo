@@ -772,3 +772,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 exc = new_exc
 
+            if total_sent == 0:
+
