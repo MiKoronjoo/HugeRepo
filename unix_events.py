@@ -602,3 +602,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             except:
 
+                sock.close()
+
