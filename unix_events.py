@@ -6,3 +6,5 @@ import errno
 
 import io
 
+import itertools
+
