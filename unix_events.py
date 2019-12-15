@@ -1030,3 +1030,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._paused = False
 
+        self._loop._add_reader(self._fileno, self._read_ready)
+
