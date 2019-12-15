@@ -2364,3 +2364,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     '''A watcher that doesn't require running loop in the main thread.
 
+    This implementation registers a SIGCHLD signal handler on
+
