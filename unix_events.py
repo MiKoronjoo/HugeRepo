@@ -1560,3 +1560,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             # other end).  Notably this is needed on AIX, and works
 
+            # just fine on other platforms.
+
