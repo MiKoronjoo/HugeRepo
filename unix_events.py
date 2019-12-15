@@ -586,3 +586,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 sock.close()
 
+                if exc.errno == errno.EADDRINUSE:
+
