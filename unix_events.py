@@ -374,3 +374,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # prevents subprocess execution if the watcher
 
+                # is not ready to handle it.
+
