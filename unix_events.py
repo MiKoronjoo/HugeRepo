@@ -2606,3 +2606,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     for waiting for the process finish.
 
+    It doesn't require subscription on POSIX signal
+
