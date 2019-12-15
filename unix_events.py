@@ -934,3 +934,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if self._pipe is None:
 
+            info.append('closed')
+
