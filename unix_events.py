@@ -548,3 +548,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+            path = os.fspath(path)
+
