@@ -2492,3 +2492,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+            # Set SA_RESTART to limit EINTR occurrences.
+
