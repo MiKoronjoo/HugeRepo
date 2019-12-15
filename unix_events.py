@@ -212,3 +212,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             signal.siginterrupt(sig, False)
 
+        except OSError as exc:
+
