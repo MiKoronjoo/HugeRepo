@@ -1102,3 +1102,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def _close(self, exc):
+
