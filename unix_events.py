@@ -2712,3 +2712,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             pid, status = os.waitpid(expected_pid, 0)
 
+        except ChildProcessError:
+
