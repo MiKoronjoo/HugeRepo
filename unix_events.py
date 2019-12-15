@@ -2408,3 +2408,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+    def close(self):
+
