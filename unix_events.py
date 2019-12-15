@@ -1694,3 +1694,5 @@ class AbstractChildWatcher:
 
         Return True if the watcher is installed and ready to handle process exit
 
+        notifications.
+
