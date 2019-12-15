@@ -2038,3 +2038,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     def __enter__(self):
 
+        return self
+
