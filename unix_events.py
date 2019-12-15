@@ -1666,3 +1666,5 @@ class AbstractChildWatcher:
 
         If the watcher was previously attached to an event loop, then it is
 
+        first detached before attaching to the new loop.
+
