@@ -144,3 +144,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # ignore null bytes written by _write_to_self()
 
+                continue
+
