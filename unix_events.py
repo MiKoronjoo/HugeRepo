@@ -204,3 +204,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # read signal numbers from this file descriptor to handle signals.
 
+            signal.signal(sig, _sighandler_noop)
+
