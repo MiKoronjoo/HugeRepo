@@ -2354,3 +2354,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             else:
 
+                callback(pid, returncode, *args)
+
