@@ -680,3 +680,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if not blocksize:
 
+            return 0  # empty file
+
