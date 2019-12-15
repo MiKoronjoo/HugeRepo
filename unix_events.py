@@ -558,3 +558,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if path[0] not in (0, '\x00'):
 
+                try:
+
