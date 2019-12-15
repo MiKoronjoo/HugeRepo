@@ -972,3 +972,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def _read_ready(self):
 
+        try:
+
