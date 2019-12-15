@@ -914,3 +914,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         # only start reading when connection_made() has been called
 
+        self._loop.call_soon(self._loop._add_reader,
+
