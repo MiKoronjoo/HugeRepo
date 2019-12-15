@@ -1890,3 +1890,5 @@ def _compute_returncode(status):
 
         return os.WEXITSTATUS(status)
 
+    else:
+
