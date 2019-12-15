@@ -1736,3 +1736,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     linearly with the number of subprocesses launched by the event loop. The
 
+    main disadvantage is that pidfds are specific to Linux, and only work on
+
