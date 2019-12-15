@@ -1810,3 +1810,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         else:
 
+            pidfd = os.pidfd_open(pid)
+
