@@ -1490,3 +1490,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         else:
 
+            self._loop.call_exception_handler({
+
