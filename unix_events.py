@@ -1868,3 +1868,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         self._loop._remove_reader(pidfd)
 
+        os.close(pidfd)
+
