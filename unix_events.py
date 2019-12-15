@@ -332,3 +332,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if not isinstance(sig, int):
 
+            raise TypeError(f'sig must be an int, not {sig!r}')
+
