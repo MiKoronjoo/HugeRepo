@@ -238,3 +238,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _handle_signal(self, sig):
+
