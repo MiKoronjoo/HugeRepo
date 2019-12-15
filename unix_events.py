@@ -2368,3 +2368,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     instantiation (which may conflict with other code that
 
+    install own handler for this signal).
+
