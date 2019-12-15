@@ -186,3 +186,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except (ValueError, OSError) as exc:
 
+            raise RuntimeError(str(exc))
+
