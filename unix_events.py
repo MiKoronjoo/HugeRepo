@@ -2206,3 +2206,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def __exit__(self, a, b, c):
 
+        with self._lock:
+
