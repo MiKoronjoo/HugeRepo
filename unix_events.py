@@ -1968,3 +1968,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         if loop is not None:
 
+            loop.add_signal_handler(signal.SIGCHLD, self._sig_chld)
+
