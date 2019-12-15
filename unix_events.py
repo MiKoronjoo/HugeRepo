@@ -1614,3 +1614,5 @@ class AbstractChildWatcher:
 
             proc = subprocess.Popen('sleep 1')
 
+            watcher.add_child_handler(proc.pid, callback)
+
