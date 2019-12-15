@@ -776,3 +776,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # We can get here for different reasons, the main
 
+                # one being 'file' is not a regular mmap(2)-like
+
