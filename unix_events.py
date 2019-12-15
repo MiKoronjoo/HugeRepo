@@ -878,3 +878,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._pipe = pipe
 
+        self._fileno = pipe.fileno()
+
