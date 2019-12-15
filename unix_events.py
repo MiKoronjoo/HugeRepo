@@ -754,3 +754,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     exc.errno == errno.ENOTCONN and
 
+                    type(exc) is not ConnectionError):
+
