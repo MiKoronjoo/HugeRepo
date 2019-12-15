@@ -574,3 +574,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     logger.error('Unable to check or remove stale UNIX socket '
 
+                                 '%r: %r', path, err)
+
