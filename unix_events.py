@@ -940,3 +940,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             info.append('closing')
 
+        info.append(f'fd={self._fileno}')
+
