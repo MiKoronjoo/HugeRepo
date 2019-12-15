@@ -2620,3 +2620,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     def __init__(self):
 
+        self._pid_counter = itertools.count(0)
+
