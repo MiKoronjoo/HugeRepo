@@ -2416,3 +2416,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             handler = signal.getsignal(signal.SIGCHLD)
 
+            if handler != self._sig_chld:
+
