@@ -492,3 +492,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError('no path and sock were specified')
 
+            if (sock.family != socket.AF_UNIX or
+
