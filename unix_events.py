@@ -1096,3 +1096,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 'protocol': self._protocol,
 
+            })
+
