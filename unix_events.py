@@ -2296,3 +2296,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 if pid == 0:
 
+                    # A child process is still alive.
+
