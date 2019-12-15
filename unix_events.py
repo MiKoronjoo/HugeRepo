@@ -1204,3 +1204,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if waiter is not None:
 
+            # only wake up the waiter when connection_made() has been called
+
