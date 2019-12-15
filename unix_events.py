@@ -1290,3 +1290,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if isinstance(data, bytearray):
 
+            data = memoryview(data)
+
