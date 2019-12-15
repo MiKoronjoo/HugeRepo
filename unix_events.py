@@ -2478,3 +2478,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         # Main thread is required for subscription on SIGCHLD signal
 
+        if self._saved_sighandler is None:
+
