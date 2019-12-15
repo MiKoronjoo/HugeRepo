@@ -2114,3 +2114,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             if pid == 0:
 
+                # The child process is still alive.
+
