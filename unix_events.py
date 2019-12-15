@@ -1576,3 +1576,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
                 stdin.close()
 
+                self._proc.stdin = open(stdin_w.detach(), 'wb', buffering=bufsize)
+
