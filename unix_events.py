@@ -1240,3 +1240,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             else:
 
+                info.append('idle')
+
