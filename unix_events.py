@@ -666,3 +666,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except (AttributeError, io.UnsupportedOperation) as err:
 
+            raise exceptions.SendfileNotAvailableError('not a regular file')
+
