@@ -2696,3 +2696,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+    def attach_loop(self, loop):
+
