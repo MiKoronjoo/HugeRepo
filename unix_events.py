@@ -822,3 +822,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 total_sent += sent
 
+                if registered_fd is None:
+
