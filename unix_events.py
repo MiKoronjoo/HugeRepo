@@ -2442,3 +2442,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def add_child_handler(self, pid, callback, *args):
 
+        loop = events.get_running_loop()
+
