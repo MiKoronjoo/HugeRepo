@@ -380,3 +380,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                    'subprocess support is not installed.')
 
+            waiter = self.create_future()
+
