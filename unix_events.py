@@ -2422,3 +2422,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             else:
 
+                signal.signal(signal.SIGCHLD, self._saved_sighandler)
+
