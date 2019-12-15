@@ -930,3 +930,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def __repr__(self):
 
+        info = [self.__class__.__name__]
+
