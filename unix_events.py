@@ -1652,3 +1652,5 @@ class AbstractChildWatcher:
 
         The function returns True if the handler was successfully removed,
 
+        False if there was nothing to remove.'''
+
