@@ -1294,3 +1294,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if not data:
 
+            return
+
