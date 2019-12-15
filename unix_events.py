@@ -932,3 +932,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         info = [self.__class__.__name__]
 
+        if self._pipe is None:
+
