@@ -664,3 +664,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             fileno = file.fileno()
 
+        except (AttributeError, io.UnsupportedOperation) as err:
+
