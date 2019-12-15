@@ -916,3 +916,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._loop.call_soon(self._loop._add_reader,
 
+                             self._fileno, self._read_ready)
+
