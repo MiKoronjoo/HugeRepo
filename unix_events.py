@@ -312,3 +312,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             except (ValueError, OSError) as exc:
 
+                logger.info('set_wakeup_fd(-1) failed: %s', exc)
+
