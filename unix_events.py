@@ -2360,3 +2360,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+class MultiLoopChildWatcher(AbstractChildWatcher):
+
