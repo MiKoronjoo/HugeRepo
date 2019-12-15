@@ -1382,3 +1382,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             # because _buffer is empty.
 
+            self._loop._remove_writer(self._fileno)
+
