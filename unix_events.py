@@ -2120,3 +2120,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+            returncode = _compute_returncode(status)
+
