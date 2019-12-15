@@ -2174,3 +2174,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         super().__init__()
 
+        self._lock = threading.Lock()
+
