@@ -2634,3 +2634,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     def close(self):
 
+        pass
+
