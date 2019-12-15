@@ -382,3 +382,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             waiter = self.create_future()
 
+            transp = _UnixSubprocessTransport(self, protocol, args, shell,
+
