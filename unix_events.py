@@ -1788,3 +1788,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
                 RuntimeWarning)
 
+        for pidfd, _, _ in self._callbacks.values():
+
