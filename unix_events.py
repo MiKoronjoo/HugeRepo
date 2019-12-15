@@ -2228,3 +2228,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             'Caught subprocesses termination from unknown pids: %s',
 
+            collateral_victims)
+
