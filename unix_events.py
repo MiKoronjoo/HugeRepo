@@ -1306,3 +1306,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                                'os.write(pipe, data) raised exception.')
 
+            self._conn_lost += 1
+
