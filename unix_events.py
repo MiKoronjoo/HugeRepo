@@ -2444,3 +2444,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         loop = events.get_running_loop()
 
+        self._callbacks[pid] = (loop, callback, args)
+
