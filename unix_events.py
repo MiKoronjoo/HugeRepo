@@ -2176,3 +2176,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         self._lock = threading.Lock()
 
+        self._zombies = {}
+
