@@ -1796,3 +1796,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         self._callbacks.clear()
 
+        self._loop = loop
+
