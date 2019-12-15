@@ -1794,3 +1794,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             os.close(pidfd)
 
+        self._callbacks.clear()
+
