@@ -1552,3 +1552,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
         if stdin == subprocess.PIPE:
 
+            # Use a socket pair for stdin, since not all platforms
+
