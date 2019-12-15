@@ -2244,3 +2244,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 returncode = self._zombies.pop(pid)
 
+            except KeyError:
+
