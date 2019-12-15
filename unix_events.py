@@ -1990,3 +1990,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             raise
 
+        except BaseException as exc:
+
