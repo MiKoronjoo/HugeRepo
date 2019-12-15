@@ -460,3 +460,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if path is not None:
 
+            if sock is not None:
+
