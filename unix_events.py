@@ -1484,3 +1484,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if isinstance(exc, OSError):
 
+            if self._loop.get_debug():
+
