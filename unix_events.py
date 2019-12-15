@@ -526,3 +526,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if isinstance(ssl, bool):
 
+            raise TypeError('ssl argument must be an SSLContext or None')
+
