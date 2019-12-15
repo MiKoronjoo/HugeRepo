@@ -2470,3 +2470,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def attach_loop(self, loop):
 
+        # Don't save the loop but initialize itself if called first time
+
