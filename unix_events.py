@@ -2626,3 +2626,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+    def is_active(self):
+
