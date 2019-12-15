@@ -2232,3 +2232,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+    def add_child_handler(self, pid, callback, *args):
+
