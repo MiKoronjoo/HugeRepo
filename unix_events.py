@@ -2468,3 +2468,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+    def attach_loop(self, loop):
+
