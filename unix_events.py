@@ -2464,3 +2464,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         except KeyError:
 
+            return False
+
