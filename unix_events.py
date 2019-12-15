@@ -2132,3 +2132,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         try:
 
+            callback, args = self._callbacks.pop(pid)
+
