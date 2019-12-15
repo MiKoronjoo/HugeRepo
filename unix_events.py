@@ -1708,3 +1708,5 @@ class AbstractChildWatcher:
 
         This function must return self'''
 
+        raise NotImplementedError()
+
