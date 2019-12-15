@@ -1748,3 +1748,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         self._loop = None
 
+        self._callbacks = {}
+
