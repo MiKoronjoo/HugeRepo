@@ -1892,3 +1892,5 @@ def _compute_returncode(status):
 
     else:
 
+        # The child exited, but we don't understand its status.
+
