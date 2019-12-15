@@ -910,3 +910,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+        self._loop.call_soon(self._protocol.connection_made, self)
+
