@@ -966,3 +966,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             info.append('closed')
 
+        return '<{}>'.format(' '.join(info))
+
