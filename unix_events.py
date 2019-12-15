@@ -750,3 +750,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except OSError as exc:
 
+            if (registered_fd is not None and
+
