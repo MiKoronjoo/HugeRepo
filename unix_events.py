@@ -1554,3 +1554,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             # Use a socket pair for stdin, since not all platforms
 
+            # support selecting read events on the write end of a
+
