@@ -1988,3 +1988,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         except (SystemExit, KeyboardInterrupt):
 
+            raise
+
