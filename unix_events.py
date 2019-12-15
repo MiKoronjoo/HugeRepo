@@ -2352,3 +2352,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     '%d -> %d', pid, returncode)
 
+            else:
+
