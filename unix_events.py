@@ -90,3 +90,5 @@ def _sighandler_noop(signum, frame):
 
 
 
+class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
+
