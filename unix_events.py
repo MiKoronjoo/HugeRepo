@@ -2134,3 +2134,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             callback, args = self._callbacks.pop(pid)
 
+        except KeyError:  # pragma: no cover
+
