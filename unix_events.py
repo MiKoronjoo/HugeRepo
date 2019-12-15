@@ -1754,3 +1754,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def __enter__(self):
 
+        return self
+
