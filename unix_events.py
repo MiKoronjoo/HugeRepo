@@ -992,3 +992,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             else:
 
+                if self._loop.get_debug():
+
