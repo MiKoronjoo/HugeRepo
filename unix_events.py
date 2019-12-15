@@ -2326,3 +2326,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                             logger.debug('unknown process %s exited '
 
+                                         'with returncode %s',
+
