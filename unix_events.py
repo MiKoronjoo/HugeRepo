@@ -792,3 +792,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             else:
 
+                self._sock_sendfile_update_filepos(fileno, offset, total_sent)
+
