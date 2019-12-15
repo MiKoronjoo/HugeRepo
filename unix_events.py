@@ -1148,3 +1148,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._fileno = pipe.fileno()
 
+        self._protocol = protocol
+
