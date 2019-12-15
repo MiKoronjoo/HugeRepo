@@ -362,3 +362,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                          stdin, stdout, stderr, bufsize,
 
+                                         extra=None, **kwargs):
+
