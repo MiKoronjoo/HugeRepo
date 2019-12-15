@@ -2320,3 +2320,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                         # It may not be registered yet.
 
+                        self._zombies[pid] = returncode
+
