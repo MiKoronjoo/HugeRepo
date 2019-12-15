@@ -410,3 +410,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 await transp._wait()
 
+                raise
+
