@@ -784,3 +784,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 err = exceptions.SendfileNotAvailableError(
 
+                    'os.sendfile call failed')
+
