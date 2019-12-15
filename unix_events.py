@@ -1992,3 +1992,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         except BaseException as exc:
 
+            # self._loop should always be available here
+
