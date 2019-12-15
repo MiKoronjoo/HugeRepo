@@ -262,3 +262,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         '''Remove a handler for a signal.  UNIX only.
 
+        Return True if a signal handler was removed, False if not.
+
