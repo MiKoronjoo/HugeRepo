@@ -2138,3 +2138,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             # May happen if .remove_child_handler() is called
 
+            # after os.waitpid() returns.
+
