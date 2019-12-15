@@ -1458,3 +1458,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             # write_eof is all what we needed to close the write pipe
 
+            self.write_eof()
+
