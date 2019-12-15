@@ -252,3 +252,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             self.remove_signal_handler(sig)  # Remove it properly.
 
+        else:
+
