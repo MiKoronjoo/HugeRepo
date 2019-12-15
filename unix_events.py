@@ -988,3 +988,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             if data:
 
+                self._protocol.data_received(data)
+
