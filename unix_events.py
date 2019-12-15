@@ -2220,3 +2220,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             collateral_victims = str(self._zombies)
 
+            self._zombies.clear()
+
