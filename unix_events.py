@@ -1790,3 +1790,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         for pidfd, _, _ in self._callbacks.values():
 
+            self._loop._remove_reader(pidfd)
+
