@@ -746,3 +746,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                             fd, sock, fileno,
 
+                            offset, count, blocksize, total_sent)
+
