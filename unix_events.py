@@ -200,3 +200,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # Register a dummy signal handler to ask Python to write the signal
 
+            # number in the wakup file descriptor. _process_self_data() will
+
