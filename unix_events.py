@@ -2808,3 +2808,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
                 threading.current_thread() is threading.main_thread()):
 
+            self._watcher.attach_loop(loop)
+
