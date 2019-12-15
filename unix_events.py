@@ -2612,3 +2612,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     The watcher has O(1) complexity, its performance doesn't depend
 
+    on amount of spawn processes.
+
