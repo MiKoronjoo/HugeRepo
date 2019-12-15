@@ -1206,3 +1206,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             # only wake up the waiter when connection_made() has been called
 
+            self._loop.call_soon(futures._set_result_unless_cancelled,
+
