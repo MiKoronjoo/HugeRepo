@@ -1498,3 +1498,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 'transport': self,
 
+                'protocol': self._protocol,
+
