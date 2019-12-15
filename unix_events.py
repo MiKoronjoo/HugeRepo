@@ -834,3 +834,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _sock_sendfile_update_filepos(self, fileno, offset, total_sent):
+
