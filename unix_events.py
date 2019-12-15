@@ -1732,3 +1732,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     child watcher implementation. It doesn't require signals or threads, doesn't
 
+    interfere with any processes launched outside the event loop, and scales
+
