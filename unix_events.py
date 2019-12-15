@@ -1186,3 +1186,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+        # On AIX, the reader trick (to be notified when the read end of the
+
