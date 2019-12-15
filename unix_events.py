@@ -1842,3 +1842,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
                 ' will report returncode 255',
 
+                pid)
+
