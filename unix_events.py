@@ -2564,3 +2564,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         else:
 
+            if loop.is_closed():
+
