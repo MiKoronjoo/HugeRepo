@@ -880,3 +880,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._fileno = pipe.fileno()
 
+        self._protocol = protocol
+
