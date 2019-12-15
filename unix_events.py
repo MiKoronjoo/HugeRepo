@@ -1418,3 +1418,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def write_eof(self):
 
+        if self._closing:
+
