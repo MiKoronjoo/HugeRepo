@@ -960,3 +960,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         elif self._pipe is not None:
 
+            info.append('open')
+
