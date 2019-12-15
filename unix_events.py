@@ -1884,3 +1884,5 @@ def _compute_returncode(status):
 
         return -os.WTERMSIG(status)
 
+    elif os.WIFEXITED(status):
+
