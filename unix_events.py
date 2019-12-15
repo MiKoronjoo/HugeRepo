@@ -120,3 +120,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         else:
 
+            if self._signal_handlers:
+
