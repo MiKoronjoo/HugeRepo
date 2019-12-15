@@ -292,3 +292,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             signal.signal(sig, handler)
 
+        except OSError as exc:
+
