@@ -202,3 +202,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # number in the wakup file descriptor. _process_self_data() will
 
+            # read signal numbers from this file descriptor to handle signals.
+
