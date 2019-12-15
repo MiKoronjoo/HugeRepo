@@ -712,3 +712,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             self.remove_writer(registered_fd)
 
+        if fut.cancelled():
+
