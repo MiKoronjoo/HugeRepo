@@ -114,3 +114,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if not sys.is_finalizing():
 
+            for sig in list(self._signal_handlers):
+
