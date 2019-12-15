@@ -258,3 +258,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def remove_signal_handler(self, sig):
+
