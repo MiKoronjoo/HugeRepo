@@ -2792,3 +2792,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         As a side effect, if a child watcher was set before, then calling
 
+        .set_event_loop() from the main thread will call .attach_loop(loop) on
+
