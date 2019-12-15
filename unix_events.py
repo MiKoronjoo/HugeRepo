@@ -1636,3 +1636,5 @@ class AbstractChildWatcher:
 
         process 'pid' terminates. Specifying another callback for the same
 
+        process replaces the previous handler.
+
