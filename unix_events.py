@@ -2490,3 +2490,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 self._saved_sighandler = signal.SIG_DFL
 
+
+
