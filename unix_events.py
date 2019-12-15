@@ -2650,3 +2650,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
 
 
+    def __del__(self, _warn=warnings.warn):
+
