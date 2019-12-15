@@ -2610,3 +2610,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     but a thread creation is not free.
 
+    The watcher has O(1) complexity, its performance doesn't depend
+
