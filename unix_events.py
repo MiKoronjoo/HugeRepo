@@ -1942,3 +1942,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
     def attach_loop(self, loop):
 
+        assert loop is None or isinstance(loop, events.AbstractEventLoop)
+
