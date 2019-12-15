@@ -2418,3 +2418,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             if handler != self._sig_chld:
 
+                logger.warning('SIGCHLD handler was changed by outside code')
+
