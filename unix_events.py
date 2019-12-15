@@ -774,3 +774,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if total_sent == 0:
 
+                # We can get here for different reasons, the main
+
