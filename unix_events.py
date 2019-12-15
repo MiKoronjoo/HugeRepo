@@ -1218,3 +1218,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._pipe is None:
 
+            info.append('closed')
+
