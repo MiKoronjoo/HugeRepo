@@ -1570,3 +1570,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
                 args, shell=shell, stdin=stdin, stdout=stdout, stderr=stderr,
 
+                universal_newlines=False, bufsize=bufsize, **kwargs)
+
