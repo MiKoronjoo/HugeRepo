@@ -2588,3 +2588,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         except (SystemExit, KeyboardInterrupt):
 
+            raise
+
