@@ -1356,3 +1356,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def _write_ready(self):
 
+        assert self._buffer, 'Data should not be empty'
+
