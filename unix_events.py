@@ -1390,3 +1390,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             if n == len(self._buffer):
 
+                self._buffer.clear()
+
