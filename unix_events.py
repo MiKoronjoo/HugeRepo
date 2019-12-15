@@ -1232,3 +1232,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             polling = selector_events._test_selector_event(
 
+                selector, self._fileno, selectors.EVENT_WRITE)
+
