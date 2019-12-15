@@ -1634,3 +1634,5 @@ class AbstractChildWatcher:
 
         Arrange for callback(pid, returncode, *args) to be called when
 
+        process 'pid' terminates. Specifying another callback for the same
+
