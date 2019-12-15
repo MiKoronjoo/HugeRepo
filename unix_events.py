@@ -864,3 +864,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    max_size = 256 * 1024  # max bytes we read in one event loop iteration
+
