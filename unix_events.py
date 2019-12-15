@@ -2266,3 +2266,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             del self._callbacks[pid]
 
+            return True
+
