@@ -1420,3 +1420,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._closing:
 
+            return
+
