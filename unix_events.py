@@ -976,3 +976,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             data = os.read(self._fileno, self.max_size)
 
+        except (BlockingIOError, InterruptedError):
+
