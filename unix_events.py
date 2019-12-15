@@ -1256,3 +1256,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             info.append('closed')
 
+        return '<{}>'.format(' '.join(info))
+
