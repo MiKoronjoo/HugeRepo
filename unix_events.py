@@ -1088,3 +1088,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             self._loop.call_exception_handler({
 
+                'message': message,
+
