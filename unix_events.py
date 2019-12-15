@@ -1328,3 +1328,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 raise
 
+            except BaseException as exc:
+
