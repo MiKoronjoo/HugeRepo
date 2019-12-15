@@ -40,3 +40,5 @@ from . import events
 
 from . import exceptions
 
+from . import futures
+
