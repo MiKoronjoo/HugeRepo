@@ -2714,3 +2714,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         except ChildProcessError:
 
+            # The child process is already reaped
+
