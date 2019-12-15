@@ -132,3 +132,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                               source=self)
 
+                self._signal_handlers.clear()
+
