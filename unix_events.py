@@ -1726,3 +1726,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     '''Child watcher implementation using Linux's pid file descriptors.
 
+    This child watcher polls process file descriptors (pidfds) to await child
+
