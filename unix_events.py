@@ -432,3 +432,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             server_hostname=None,
 
+            ssl_handshake_timeout=None):
+
