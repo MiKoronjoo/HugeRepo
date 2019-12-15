@@ -2340,3 +2340,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                         logger.debug('process %s exited with returncode %s',
 
+                                     pid, returncode)
+
