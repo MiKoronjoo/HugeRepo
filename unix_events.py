@@ -2136,3 +2136,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         except KeyError:  # pragma: no cover
 
+            # May happen if .remove_child_handler() is called
+
