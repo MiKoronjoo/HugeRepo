@@ -1494,3 +1494,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 'message': message,
 
+                'exception': exc,
+
