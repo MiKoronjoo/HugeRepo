@@ -2532,3 +2532,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 pid)
 
+            debug_log = False
+
