@@ -1630,3 +1630,5 @@ class AbstractChildWatcher:
 
     def add_child_handler(self, pid, callback, *args):
 
+        '''Register a new child handler.
+
