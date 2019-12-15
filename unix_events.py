@@ -2182,3 +2182,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+    def close(self):
+
