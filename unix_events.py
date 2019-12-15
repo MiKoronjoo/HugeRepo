@@ -1150,3 +1150,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._protocol = protocol
 
+        self._buffer = bytearray()
+
