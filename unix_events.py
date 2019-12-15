@@ -168,3 +168,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                             'with add_signal_handler()')
 
+        self._check_signal(sig)
+
