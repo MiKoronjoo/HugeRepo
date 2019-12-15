@@ -1272,3 +1272,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._loop.get_debug():
 
+            logger.info('%r was closed by peer', self)
+
