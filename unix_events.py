@@ -974,3 +974,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         try:
 
+            data = os.read(self._fileno, self.max_size)
+
