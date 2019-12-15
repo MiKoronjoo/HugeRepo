@@ -1342,3 +1342,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             elif n > 0:
 
+                data = memoryview(data)[n:]
+
