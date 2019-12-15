@@ -944,3 +944,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         selector = getattr(self._loop, '_selector', None)
 
+        if self._pipe is not None and selector is not None:
+
