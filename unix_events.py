@@ -2080,3 +2080,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         for pid in list(self._callbacks):
 
+            self._do_waitpid(pid)
+
