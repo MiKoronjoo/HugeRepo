@@ -130,3 +130,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                               ResourceWarning,
 
+                              source=self)
+
