@@ -1152,3 +1152,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._buffer = bytearray()
 
+        self._conn_lost = 0
+
