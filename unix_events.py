@@ -1392,3 +1392,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 self._buffer.clear()
 
+                self._loop._remove_writer(self._fileno)
+
