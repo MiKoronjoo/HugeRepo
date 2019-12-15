@@ -1724,3 +1724,5 @@ class AbstractChildWatcher:
 
 class PidfdChildWatcher(AbstractChildWatcher):
 
+    '''Child watcher implementation using Linux's pid file descriptors.
+
