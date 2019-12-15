@@ -766,3 +766,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 new_exc = ConnectionError(
 
+                    'socket is not connected', errno.ENOTCONN)
+
