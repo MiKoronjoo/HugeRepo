@@ -1604,3 +1604,5 @@ class AbstractChildWatcher:
 
     process must be done within a 'with' block to allow the watcher to suspend
 
+    its activity until the new process if fully registered (this is needed to
+
