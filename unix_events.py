@@ -562,3 +562,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     if stat.S_ISSOCK(os.stat(path).st_mode):
 
+                        os.remove(path)
+
