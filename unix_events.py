@@ -1092,3 +1092,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 'exception': exc,
 
+                'transport': self,
+
