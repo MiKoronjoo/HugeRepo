@@ -634,3 +634,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if start_serving:
 
+            server._start_serving()
+
