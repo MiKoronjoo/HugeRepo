@@ -1442,3 +1442,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def get_protocol(self):
 
+        return self._protocol
+
