@@ -2710,3 +2710,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         try:
 
+            pid, status = os.waitpid(expected_pid, 0)
+
