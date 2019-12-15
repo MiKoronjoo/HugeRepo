@@ -594,3 +594,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     msg = f'Address {path!r} is already in use'
 
+                    raise OSError(errno.EADDRINUSE, msg) from None
+
