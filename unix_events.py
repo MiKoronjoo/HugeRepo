@@ -1216,3 +1216,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         info = [self.__class__.__name__]
 
+        if self._pipe is None:
+
