@@ -2112,3 +2112,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         else:
 
+            if pid == 0:
+
