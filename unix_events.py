@@ -2658,3 +2658,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         if threads:
 
+            _warn(f'{self.__class__} has registered but not finished child processes',
+
