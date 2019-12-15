@@ -2402,3 +2402,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+    def is_active(self):
+
