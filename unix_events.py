@@ -442,3 +442,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError(
 
+                    'you have to pass server_hostname when using ssl')
+
