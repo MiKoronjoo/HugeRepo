@@ -1474,3 +1474,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def abort(self):
 
+        self._close(None)
+
