@@ -676,3 +676,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise exceptions.SendfileNotAvailableError('not a regular file')
 
+        blocksize = count if count else fsize
+
