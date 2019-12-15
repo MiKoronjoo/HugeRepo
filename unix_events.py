@@ -2552,3 +2552,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             loop, callback, args = self._callbacks.pop(pid)
 
+        except KeyError:  # pragma: no cover
+
