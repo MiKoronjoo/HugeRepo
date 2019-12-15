@@ -532,3 +532,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if ssl_handshake_timeout is not None and not ssl:
 
+            raise ValueError(
+
