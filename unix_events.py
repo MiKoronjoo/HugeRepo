@@ -338,3 +338,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if sig not in signal.valid_signals():
 
+            raise ValueError(f'invalid signal number {sig}')
+
