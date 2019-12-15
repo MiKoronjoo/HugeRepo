@@ -2278,3 +2278,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         # Because of signal coalescing, we must keep calling waitpid() as
 
+        # long as we're able to reap a child.
+
