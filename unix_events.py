@@ -768,3 +768,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     'socket is not connected', errno.ENOTCONN)
 
+                new_exc.__cause__ = exc
+
