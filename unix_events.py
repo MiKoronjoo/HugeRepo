@@ -1212,3 +1212,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def __repr__(self):
+
