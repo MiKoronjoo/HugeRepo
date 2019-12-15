@@ -1508,3 +1508,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def _close(self, exc=None):
 
+        self._closing = True
+
