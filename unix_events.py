@@ -1602,3 +1602,5 @@ class AbstractChildWatcher:
 
     New callbacks are registered with .add_child_handler(). Starting a new
 
+    process must be done within a 'with' block to allow the watcher to suspend
+
