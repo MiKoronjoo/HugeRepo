@@ -124,3 +124,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 warnings.warn(f'Closing the loop {self!r} '
 
+                              f'on interpreter shutdown '
+
