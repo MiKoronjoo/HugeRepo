@@ -1836,3 +1836,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             returncode = 255
 
+            logger.warning(
+
