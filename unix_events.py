@@ -1160,3 +1160,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         mode = os.fstat(self._fileno).st_mode
 
+        is_char = stat.S_ISCHR(mode)
+
