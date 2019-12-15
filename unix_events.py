@@ -2842,3 +2842,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         if self._watcher is not None:
 
+            self._watcher.close()
+
