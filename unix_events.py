@@ -1650,3 +1650,5 @@ class AbstractChildWatcher:
 
         '''Removes the handler for process 'pid'.
 
+        The function returns True if the handler was successfully removed,
+
