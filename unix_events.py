@@ -570,3 +570,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 except OSError as err:
 
+                    # Directory may have permissions only to create socket.
+
