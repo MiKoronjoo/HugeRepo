@@ -1078,3 +1078,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         # should be called by exception handler only
 
+        if (isinstance(exc, OSError) and exc.errno == errno.EIO):
+
