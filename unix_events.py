@@ -1162,3 +1162,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         is_char = stat.S_ISCHR(mode)
 
+        is_fifo = stat.S_ISFIFO(mode)
+
