@@ -2688,3 +2688,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         # asyncio never calls remove_child_handler() !!!
 
+        # The method is no-op but is implemented because
+
