@@ -650,3 +650,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     async def _sock_sendfile_native(self, sock, file, offset, count):
 
+        try:
+
