@@ -850,3 +850,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 fd = sock.fileno()
 
+                if fd != -1:
+
