@@ -140,3 +140,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         for signum in data:
 
+            if not signum:
+
