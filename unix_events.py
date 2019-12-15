@@ -1126,3 +1126,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             self._protocol = None
 
+            self._loop = None
+
