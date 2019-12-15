@@ -752,3 +752,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if (registered_fd is not None and
 
+                    exc.errno == errno.ENOTCONN and
+
