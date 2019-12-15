@@ -30,3 +30,5 @@ import warnings
 
 from . import base_events
 
+from . import base_subprocess
+
