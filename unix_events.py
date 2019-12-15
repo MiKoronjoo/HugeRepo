@@ -1622,3 +1622,5 @@ class AbstractChildWatcher:
 
         Since child watcher objects may catch the SIGCHLD signal and call
 
+        waitpid(-1), there should be only one active object per process.
+
