@@ -2590,3 +2590,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             raise
 
+        except BaseException:
+
