@@ -1482,3 +1482,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         # should be called by exception handler only
 
+        if isinstance(exc, OSError):
+
