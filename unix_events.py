@@ -1406,3 +1406,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             elif n > 0:
 
+                del self._buffer[:n]
+
