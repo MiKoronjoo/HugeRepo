@@ -1684,3 +1684,5 @@ class AbstractChildWatcher:
 
         '''
 
+        raise NotImplementedError()
+
