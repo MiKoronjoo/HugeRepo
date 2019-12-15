@@ -2016,3 +2016,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     This implementation avoids disrupting other code spawning processes by
 
+    polling explicitly each process in the SIGCHLD handler instead of calling
+
