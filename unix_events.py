@@ -2726,3 +2726,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                 'Unknown child process pid %d, will report returncode 255',
 
+                pid)
+
