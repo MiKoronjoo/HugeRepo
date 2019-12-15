@@ -2536,3 +2536,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         else:
 
+            if pid == 0:
+
