@@ -980,3 +980,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             pass
 
+        except OSError as exc:
+
