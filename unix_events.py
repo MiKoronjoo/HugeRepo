@@ -572,3 +572,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     # Directory may have permissions only to create socket.
 
+                    logger.error('Unable to check or remove stale UNIX socket '
+
