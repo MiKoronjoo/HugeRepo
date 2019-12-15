@@ -1760,3 +1760,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def __exit__(self, exc_type, exc_value, exc_traceback):
 
+        pass
+
