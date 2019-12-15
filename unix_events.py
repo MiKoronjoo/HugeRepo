@@ -1786,3 +1786,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
                 'from a child watcher with pending handlers',
 
+                RuntimeWarning)
+
