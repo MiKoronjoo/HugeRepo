@@ -1314,3 +1314,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if not self._buffer:
 
+            # Attempt to send it right away first.
+
