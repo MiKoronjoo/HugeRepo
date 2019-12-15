@@ -1300,3 +1300,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._conn_lost or self._closing:
 
+            if self._conn_lost >= constants.LOG_THRESHOLD_FOR_CONNLOST_WRITES:
+
