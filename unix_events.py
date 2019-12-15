@@ -1820,3 +1820,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def _do_wait(self, pid):
 
+        pidfd, callback, args = self._callbacks.pop(pid)
+
