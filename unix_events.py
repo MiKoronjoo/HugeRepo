@@ -476,3 +476,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 sock.setblocking(False)
 
+                await self.sock_connect(sock, path)
+
