@@ -612,3 +612,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError(
 
+                    'path was not specified, and no sock specified')
+
