@@ -2294,3 +2294,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             else:
 
+                if pid == 0:
+
