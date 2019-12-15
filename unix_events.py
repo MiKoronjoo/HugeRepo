@@ -2240,3 +2240,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         with self._lock:
 
+            try:
+
