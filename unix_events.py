@@ -2384,3 +2384,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     # The class keeps compatibility with AbstractChildWatcher ABC
 
+    # To achieve this it has empty attach_loop() method
+
