@@ -248,3 +248,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             return  # Assume it's some race condition.
 
+        if handle._cancelled:
+
