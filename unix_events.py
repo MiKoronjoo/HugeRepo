@@ -2260,3 +2260,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+    def remove_child_handler(self, pid):
+
