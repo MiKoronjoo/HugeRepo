@@ -870,3 +870,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def __init__(self, loop, pipe, protocol, waiter=None, extra=None):
 
+        super().__init__(extra)
+
