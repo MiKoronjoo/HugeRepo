@@ -2312,3 +2312,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     callback, args = self._callbacks.pop(pid)
 
+                except KeyError:
+
