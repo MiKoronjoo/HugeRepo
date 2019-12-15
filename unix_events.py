@@ -1572,3 +1572,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
                 universal_newlines=False, bufsize=bufsize, **kwargs)
 
+            if stdin_w is not None:
+
