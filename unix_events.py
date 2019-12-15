@@ -2374,3 +2374,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     handling a big number of processes (*O(n)* each time a
 
+    SIGCHLD is received).
+
