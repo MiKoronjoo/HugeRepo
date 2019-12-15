@@ -2004,3 +2004,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
                 'exception': exc,
 
+            })
+
