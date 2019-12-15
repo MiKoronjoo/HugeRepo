@@ -982,3 +982,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         except OSError as exc:
 
+            self._fatal_error(exc, 'Fatal read error on pipe transport')
+
