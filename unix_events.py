@@ -1834,3 +1834,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             # (may happen if waitpid() is called elsewhere).
 
+            returncode = 255
+
