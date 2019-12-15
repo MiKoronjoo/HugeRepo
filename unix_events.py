@@ -740,3 +740,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if registered_fd is None:
 
+                self._sock_add_cancellation_callback(fut, sock)
+
