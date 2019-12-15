@@ -2344,3 +2344,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+            if callback is None:
+
