@@ -418,3 +418,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _child_watcher_callback(self, pid, returncode, transp):
+
