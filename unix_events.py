@@ -1808,3 +1808,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             self._callbacks[pid] = existing[0], callback, args
 
+        else:
+
