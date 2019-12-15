@@ -1764,3 +1764,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
 
 
+    def is_active(self):
+
