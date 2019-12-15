@@ -2366,3 +2366,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     This implementation registers a SIGCHLD signal handler on
 
+    instantiation (which may conflict with other code that
+
