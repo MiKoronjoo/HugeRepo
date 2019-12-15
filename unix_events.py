@@ -2678,3 +2678,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                                   daemon=True)
 
+        self._threads[pid] = thread
+
