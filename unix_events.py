@@ -1908,3 +1908,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+    def __init__(self):
+
