@@ -1840,3 +1840,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
                 'child process pid %d exit status already read: '
 
+                ' will report returncode 255',
+
