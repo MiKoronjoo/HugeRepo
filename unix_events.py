@@ -1380,3 +1380,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             # Remove writer here, _fatal_error() doesn't it
 
+            # because _buffer is empty.
+
