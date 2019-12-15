@@ -136,3 +136,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+    def _process_self_data(self, data):
+
