@@ -1394,3 +1394,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 self._loop._remove_writer(self._fileno)
 
+                self._maybe_resume_protocol()  # May append to buffer.
+
