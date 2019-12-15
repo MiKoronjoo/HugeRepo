@@ -2276,3 +2276,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def _do_waitpid_all(self):
 
+        # Because of signal coalescing, we must keep calling waitpid() as
+
