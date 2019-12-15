@@ -1334,3 +1334,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 self._fatal_error(exc, 'Fatal write error on pipe transport')
 
+                return
+
