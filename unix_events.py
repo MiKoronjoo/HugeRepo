@@ -2576,3 +2576,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                                  expected_pid, returncode)
 
+                loop.call_soon_threadsafe(callback, pid, returncode, *args)
+
