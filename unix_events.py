@@ -176,3 +176,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # set_wakeup_fd() raises ValueError if this is not the
 
+            # main thread.  By calling it early we ensure that an
+
