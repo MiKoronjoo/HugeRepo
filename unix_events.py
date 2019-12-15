@@ -1192,3 +1192,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         # works for pipes and sockets. (Exception: OS X 10.4?  Issue #19294.)
 
+        if is_socket or (is_fifo and not sys.platform.startswith('aix')):
+
