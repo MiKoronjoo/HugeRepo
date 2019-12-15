@@ -352,3 +352,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     def _make_write_pipe_transport(self, pipe, protocol, waiter=None,
 
+                                   extra=None):
+
