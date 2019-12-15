@@ -1994,3 +1994,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             # self._loop should always be available here
 
+            # as '_sig_chld' is added as a signal handler
+
