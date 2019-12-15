@@ -1106,3 +1106,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._closing = True
 
+        self._loop._remove_reader(self._fileno)
+
