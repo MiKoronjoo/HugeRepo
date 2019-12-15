@@ -2084,3 +2084,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+    def _do_waitpid(self, expected_pid):
+
