@@ -1026,3 +1026,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if self._closing or not self._paused:
 
+            return
+
