@@ -800,3 +800,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise
 
+        except BaseException as exc:
+
