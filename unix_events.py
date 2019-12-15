@@ -1960,3 +1960,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         if self._loop is not None:
 
+            self._loop.remove_signal_handler(signal.SIGCHLD)
+
