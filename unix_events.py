@@ -810,3 +810,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if sent == 0:
 
+                # EOF
+
