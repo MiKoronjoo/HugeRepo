@@ -1862,3 +1862,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             pidfd, _, _ = self._callbacks.pop(pid)
 
+        except KeyError:
+
