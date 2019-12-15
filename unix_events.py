@@ -2162,3 +2162,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     os.waitpid(-1) directly, possibly breaking other code spawning processes
 
+    and waiting for their termination.
+
