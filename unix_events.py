@@ -470,3 +470,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             path = os.fspath(path)
 
+            sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM, 0)
+
