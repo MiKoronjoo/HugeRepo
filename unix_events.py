@@ -1852,3 +1852,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         os.close(pidfd)
 
+        callback(pid, returncode, *args)
+
