@@ -1974,3 +1974,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             # Prevent a race condition in case a child terminated
 
+            # during the switch.
+
