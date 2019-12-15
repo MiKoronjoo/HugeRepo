@@ -1692,3 +1692,5 @@ class AbstractChildWatcher:
 
         '''Return True if the watcher is active and is used by the event loop.
 
+        Return True if the watcher is installed and ready to handle process exit
+
