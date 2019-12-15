@@ -2398,3 +2398,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         self._callbacks = {}
 
+        self._saved_sighandler = None
+
