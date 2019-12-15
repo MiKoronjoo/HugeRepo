@@ -762,3 +762,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # of the operation, normalize the error to ConnectionError
 
+                # to make it consistent across all Posix systems.
+
