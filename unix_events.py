@@ -1612,3 +1612,5 @@ class AbstractChildWatcher:
 
         with watcher:
 
+            proc = subprocess.Popen('sleep 1')
+
