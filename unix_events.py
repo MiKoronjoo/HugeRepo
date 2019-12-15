@@ -488,3 +488,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         else:
 
+            if sock is None:
+
