@@ -1582,3 +1582,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
         finally:
 
+            if stdin_w is not None:
+
