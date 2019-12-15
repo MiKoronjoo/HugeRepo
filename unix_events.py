@@ -1976,3 +1976,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             # during the switch.
 
+            self._do_waitpid_all()
+
