@@ -2686,3 +2686,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     def remove_child_handler(self, pid):
 
+        # asyncio never calls remove_child_handler() !!!
+
