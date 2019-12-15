@@ -1104,3 +1104,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def _close(self, exc):
 
+        self._closing = True
+
