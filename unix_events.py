@@ -450,3 +450,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError('server_hostname is only meaningful with ssl')
 
+            if ssl_handshake_timeout is not None:
+
