@@ -1226,3 +1226,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         info.append(f'fd={self._fileno}')
 
+        selector = getattr(self._loop, '_selector', None)
+
