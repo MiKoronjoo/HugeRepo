@@ -2570,3 +2570,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             else:
 
+                if debug_log and loop.get_debug():
+
