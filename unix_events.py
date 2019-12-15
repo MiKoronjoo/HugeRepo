@@ -126,3 +126,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                               f'on interpreter shutdown '
 
+                              f'stage, skipping signal handlers removal',
+
