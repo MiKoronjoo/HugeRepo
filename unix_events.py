@@ -1412,3 +1412,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def can_write_eof(self):
 
+        return True
+
