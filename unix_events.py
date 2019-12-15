@@ -268,3 +268,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         self._check_signal(sig)
 
+        try:
+
