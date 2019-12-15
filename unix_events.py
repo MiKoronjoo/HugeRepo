@@ -1424,3 +1424,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         assert self._pipe
 
+        self._closing = True
+
