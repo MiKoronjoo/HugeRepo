@@ -2820,3 +2820,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         '''
 
+        if self._watcher is None:
+
