@@ -2448,3 +2448,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+        # Prevent a race condition in case the child is already terminated.
+
