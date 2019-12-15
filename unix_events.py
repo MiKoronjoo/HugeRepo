@@ -2476,3 +2476,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         # unix policy only for the main thread.
 
+        # Main thread is required for subscription on SIGCHLD signal
+
