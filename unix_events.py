@@ -1542,3 +1542,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
+
