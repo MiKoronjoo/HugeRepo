@@ -838,3 +838,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if total_sent > 0:
 
+            os.lseek(fileno, offset, os.SEEK_SET)
+
