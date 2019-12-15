@@ -208,3 +208,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+            # Set SA_RESTART to limit EINTR occurrences.
+
