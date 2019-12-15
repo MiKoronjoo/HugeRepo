@@ -1998,3 +1998,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             # in 'attach_loop'
 
+            self._loop.call_exception_handler({
+
