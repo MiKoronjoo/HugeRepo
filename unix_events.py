@@ -1876,3 +1876,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
 
 
+def _compute_returncode(status):
+
