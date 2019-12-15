@@ -2516,3 +2516,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             pid, status = os.waitpid(expected_pid, os.WNOHANG)
 
+        except ChildProcessError:
+
