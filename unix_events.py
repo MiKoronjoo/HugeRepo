@@ -1000,3 +1000,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 self._loop._remove_reader(self._fileno)
 
+                self._loop.call_soon(self._protocol.eof_received)
+
