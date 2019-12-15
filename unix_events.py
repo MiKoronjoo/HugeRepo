@@ -2310,3 +2310,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 try:
 
+                    callback, args = self._callbacks.pop(pid)
+
