@@ -1678,3 +1678,5 @@ class AbstractChildWatcher:
 
     def close(self):
 
+        '''Close the watcher.
+
