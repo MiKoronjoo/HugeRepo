@@ -2776,3 +2776,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         with events._lock:
 
+            if self._watcher is None:  # pragma: no branch
+
