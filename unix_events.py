@@ -2716,3 +2716,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             # The child process is already reaped
 
+            # (may happen if waitpid() is called elsewhere).
+
