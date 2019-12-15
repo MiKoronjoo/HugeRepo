@@ -902,3 +902,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             self._protocol = None
 
+            raise ValueError('Pipe transport is for pipes/sockets only.')
+
