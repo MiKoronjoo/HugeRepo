@@ -2298,3 +2298,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     # A child process is still alive.
 
+                    return
+
