@@ -1916,3 +1916,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+    def close(self):
+
