@@ -278,3 +278,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+        if sig == signal.SIGINT:
+
