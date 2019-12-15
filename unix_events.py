@@ -2050,3 +2050,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     def add_child_handler(self, pid, callback, *args):
 
+        self._callbacks[pid] = (callback, args)
+
