@@ -2778,3 +2778,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
             if self._watcher is None:  # pragma: no branch
 
+                self._watcher = ThreadedChildWatcher()
+
