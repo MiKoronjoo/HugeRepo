@@ -1370,3 +1370,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         except (SystemExit, KeyboardInterrupt):
 
+            raise
+
