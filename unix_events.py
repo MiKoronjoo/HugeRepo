@@ -2160,3 +2160,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     This implementation reaps every terminated processes by calling
 
+    os.waitpid(-1) directly, possibly breaking other code spawning processes
+
