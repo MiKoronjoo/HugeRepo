@@ -1142,3 +1142,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         super().__init__(extra, loop)
 
+        self._extra['pipe'] = pipe
+
