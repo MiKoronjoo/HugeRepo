@@ -2544,3 +2544,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+            returncode = _compute_returncode(status)
+
