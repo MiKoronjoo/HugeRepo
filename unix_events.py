@@ -152,3 +152,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     def add_signal_handler(self, sig, callback, *args):
 
+        '''Add a handler for a signal.  UNIX only.
+
