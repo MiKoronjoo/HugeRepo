@@ -542,3 +542,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if sock is not None:
 
+                raise ValueError(
+
