@@ -128,3 +128,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                               f'stage, skipping signal handlers removal',
 
+                              ResourceWarning,
+
