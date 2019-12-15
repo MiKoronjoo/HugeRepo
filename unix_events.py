@@ -846,3 +846,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         def cb(fut):
 
+            if fut.cancelled():
+
