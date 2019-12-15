@@ -736,3 +736,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             sent = os.sendfile(fd, fileno, offset, blocksize)
 
+        except (BlockingIOError, InterruptedError):
+
