@@ -1320,3 +1320,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 n = os.write(self._fileno, data)
 
+            except (BlockingIOError, InterruptedError):
+
