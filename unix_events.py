@@ -986,3 +986,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         else:
 
+            if data:
+
