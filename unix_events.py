@@ -596,3 +596,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     raise OSError(errno.EADDRINUSE, msg) from None
 
+                else:
+
