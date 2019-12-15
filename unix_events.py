@@ -2774,3 +2774,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
     def _init_watcher(self):
 
+        with events._lock:
+
