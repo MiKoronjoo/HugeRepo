@@ -1738,3 +1738,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     main disadvantage is that pidfds are specific to Linux, and only work on
 
+    recent (5.3+) kernels.
+
