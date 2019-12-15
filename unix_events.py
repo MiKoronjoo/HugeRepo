@@ -1348,3 +1348,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+        self._buffer += data
+
