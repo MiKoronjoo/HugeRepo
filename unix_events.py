@@ -472,3 +472,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM, 0)
 
+            try:
+
