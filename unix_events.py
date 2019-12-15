@@ -2746,3 +2746,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         else:
 
+            loop.call_soon_threadsafe(callback, pid, returncode, *args)
+
