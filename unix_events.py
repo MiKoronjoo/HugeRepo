@@ -2282,3 +2282,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         while True:
 
+            try:
+
