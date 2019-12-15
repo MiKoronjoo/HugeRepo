@@ -764,3 +764,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # to make it consistent across all Posix systems.
 
+                new_exc = ConnectionError(
+
