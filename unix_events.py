@@ -928,3 +928,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def __repr__(self):
+
