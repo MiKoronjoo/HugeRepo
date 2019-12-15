@@ -1910,3 +1910,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
     def __init__(self):
 
+        self._loop = None
+
