@@ -180,3 +180,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # event loop running in another thread cannot add a signal
 
+            # handler.
+
