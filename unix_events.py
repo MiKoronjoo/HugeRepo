@@ -1536,3 +1536,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             self._protocol = None
 
+            self._loop = None
+
