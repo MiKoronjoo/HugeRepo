@@ -2148,3 +2148,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         else:
 
+            callback(pid, returncode, *args)
+
