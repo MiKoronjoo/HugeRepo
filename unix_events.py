@@ -242,3 +242,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         '''Internal helper that is the actual signal handler.'''
 
+        handle = self._signal_handlers.get(sig)
+
