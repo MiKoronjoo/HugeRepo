@@ -2158,3 +2158,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     ''''Fast' child watcher implementation.
 
+    This implementation reaps every terminated processes by calling
+
