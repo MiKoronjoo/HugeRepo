@@ -2214,3 +2214,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             if self._forks or not self._zombies:
 
+                return
+
