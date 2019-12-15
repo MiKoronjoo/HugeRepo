@@ -1946,3 +1946,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+        if self._loop is not None and loop is None and self._callbacks:
+
