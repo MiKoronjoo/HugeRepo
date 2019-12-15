@@ -1182,3 +1182,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         os.set_blocking(self._fileno, False)
 
+        self._loop.call_soon(self._protocol.connection_made, self)
+
