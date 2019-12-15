@@ -1904,3 +1904,5 @@ def _compute_returncode(status):
 
 
 
+class BaseChildWatcher(AbstractChildWatcher):
+
