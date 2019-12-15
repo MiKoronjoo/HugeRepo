@@ -1728,3 +1728,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     This child watcher polls process file descriptors (pidfds) to await child
 
+    process termination. In some respects, PidfdChildWatcher is a 'Goldilocks'
+
