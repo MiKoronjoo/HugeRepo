@@ -60,3 +60,5 @@ __all__ = (
 
     'AbstractChildWatcher', 'SafeChildWatcher',
 
+    'FastChildWatcher', 'PidfdChildWatcher',
+
