@@ -2662,3 +2662,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                   ResourceWarning,
 
+                  source=self)
+
