@@ -524,3 +524,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             start_serving=True):
 
+        if isinstance(ssl, bool):
+
