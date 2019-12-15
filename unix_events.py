@@ -122,3 +122,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if self._signal_handlers:
 
+                warnings.warn(f'Closing the loop {self!r} '
+
