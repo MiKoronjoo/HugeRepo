@@ -1230,3 +1230,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._pipe is not None and selector is not None:
 
+            polling = selector_events._test_selector_event(
+
