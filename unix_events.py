@@ -2268,3 +2268,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             return True
 
+        except KeyError:
+
