@@ -1008,3 +1008,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def pause_reading(self):
 
+        if self._closing or self._paused:
+
