@@ -182,3 +182,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # handler.
 
+            signal.set_wakeup_fd(self._csock.fileno())
+
