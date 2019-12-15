@@ -1574,3 +1574,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             if stdin_w is not None:
 
+                stdin.close()
+
