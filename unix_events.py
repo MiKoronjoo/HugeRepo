@@ -1456,3 +1456,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._pipe is not None and not self._closing:
 
+            # write_eof is all what we needed to close the write pipe
+
