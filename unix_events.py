@@ -950,3 +950,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 selector, self._fileno, selectors.EVENT_READ)
 
+            if polling:
+
