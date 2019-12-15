@@ -228,3 +228,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+            if exc.errno == errno.EINVAL:
+
