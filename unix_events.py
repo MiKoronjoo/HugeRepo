@@ -2676,3 +2676,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                                   args=(loop, pid, callback, args),
 
+                                  daemon=True)
+
