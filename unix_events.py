@@ -2370,3 +2370,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     install own handler for this signal).
 
+    The solution is safe but it has a significant overhead when
+
