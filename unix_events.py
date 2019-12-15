@@ -2372,3 +2372,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     The solution is safe but it has a significant overhead when
 
+    handling a big number of processes (*O(n)* each time a
+
