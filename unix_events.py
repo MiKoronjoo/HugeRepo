@@ -2116,3 +2116,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
                 # The child process is still alive.
 
+                return
+
