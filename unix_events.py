@@ -1804,3 +1804,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         existing = self._callbacks.get(pid)
 
+        if existing is not None:
+
