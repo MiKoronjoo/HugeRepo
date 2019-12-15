@@ -2250,3 +2250,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 self._callbacks[pid] = callback, args
 
+                return
+
