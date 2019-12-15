@@ -1618,3 +1618,5 @@ class AbstractChildWatcher:
 
     Notes:
 
+        Implementations of this class must be thread-safe.
+
