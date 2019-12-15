@@ -2424,3 +2424,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 signal.signal(signal.SIGCHLD, self._saved_sighandler)
 
+            self._saved_sighandler = None
+
