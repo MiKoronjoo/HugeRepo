@@ -2336,3 +2336,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                 else:
 
+                    if self._loop.get_debug():
+
