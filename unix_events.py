@@ -282,3 +282,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             handler = signal.default_int_handler
 
+        else:
+
