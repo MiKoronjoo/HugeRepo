@@ -1402,3 +1402,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                     self._call_connection_lost(None)
 
+                return
+
