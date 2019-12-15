@@ -1632,3 +1632,5 @@ class AbstractChildWatcher:
 
         '''Register a new child handler.
 
+        Arrange for callback(pid, returncode, *args) to be called when
+
