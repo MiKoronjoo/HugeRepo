@@ -2022,3 +2022,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     This is a safe solution but it has a significant overhead when handling a
 
+    big number of children (O(n) each time SIGCHLD is raised)
+
