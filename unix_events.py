@@ -1234,3 +1234,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 selector, self._fileno, selectors.EVENT_WRITE)
 
+            if polling:
+
