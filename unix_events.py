@@ -874,3 +874,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._extra['pipe'] = pipe
 
+        self._loop = loop
+
