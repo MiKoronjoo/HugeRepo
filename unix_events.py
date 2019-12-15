@@ -294,3 +294,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except OSError as exc:
 
+            if exc.errno == errno.EINVAL:
+
