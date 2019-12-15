@@ -770,3 +770,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 new_exc.__cause__ = exc
 
+                exc = new_exc
+
