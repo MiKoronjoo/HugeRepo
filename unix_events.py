@@ -1580,3 +1580,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
                 stdin_w = None
 
+        finally:
+
