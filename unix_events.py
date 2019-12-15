@@ -996,3 +996,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                     logger.info('%r was closed by peer', self)
 
+                self._closing = True
+
