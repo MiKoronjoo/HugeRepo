@@ -820,3 +820,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 offset += sent
 
+                total_sent += sent
+
