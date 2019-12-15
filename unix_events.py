@@ -788,3 +788,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 self._sock_sendfile_update_filepos(fileno, offset, total_sent)
 
+                fut.set_exception(err)
+
