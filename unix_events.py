@@ -2500,3 +2500,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def _do_waitpid_all(self):
 
+        for pid in list(self._callbacks):
+
