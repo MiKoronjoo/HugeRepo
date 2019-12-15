@@ -848,3 +848,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if fut.cancelled():
 
+                fd = sock.fileno()
+
