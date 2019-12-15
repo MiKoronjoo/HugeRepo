@@ -1268,3 +1268,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def _read_ready(self):
 
+        # Pipe was closed by peer.
+
