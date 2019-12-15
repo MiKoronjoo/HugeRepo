@@ -1298,3 +1298,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+        if self._conn_lost or self._closing:
+
