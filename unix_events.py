@@ -1880,3 +1880,5 @@ def _compute_returncode(status):
 
     if os.WIFSIGNALED(status):
 
+        # The child process died because of a signal.
+
