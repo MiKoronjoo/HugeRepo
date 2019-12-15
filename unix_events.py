@@ -360,3 +360,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     async def _make_subprocess_transport(self, protocol, args, shell,
 
+                                         stdin, stdout, stderr, bufsize,
+
