@@ -2020,3 +2020,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     os.waitpid(-1).
 
+    This is a safe solution but it has a significant overhead when handling a
+
