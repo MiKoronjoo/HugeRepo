@@ -1524,3 +1524,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def _call_connection_lost(self, exc):
 
+        try:
+
