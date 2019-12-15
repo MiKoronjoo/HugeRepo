@@ -178,3 +178,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # main thread.  By calling it early we ensure that an
 
+            # event loop running in another thread cannot add a signal
+
