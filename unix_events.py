@@ -1746,3 +1746,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def __init__(self):
 
+        self._loop = None
+
