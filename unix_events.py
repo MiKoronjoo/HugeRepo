@@ -2730,3 +2730,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         else:
 
+            returncode = _compute_returncode(status)
+
