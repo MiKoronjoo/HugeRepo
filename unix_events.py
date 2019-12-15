@@ -2790,3 +2790,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         '''Set the event loop.
 
+        As a side effect, if a child watcher was set before, then calling
+
