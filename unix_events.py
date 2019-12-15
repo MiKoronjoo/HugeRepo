@@ -2818,3 +2818,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         If not yet set, a ThreadedChildWatcher object is automatically created.
 
+        '''
+
