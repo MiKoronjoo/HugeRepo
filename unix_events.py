@@ -1066,3 +1066,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def __del__(self, _warn=warnings.warn):
 
+        if self._pipe is not None:
+
