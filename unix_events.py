@@ -2094,3 +2094,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             pid, status = os.waitpid(expected_pid, os.WNOHANG)
 
+        except ChildProcessError:
+
