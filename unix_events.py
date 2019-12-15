@@ -2242,3 +2242,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             try:
 
+                returncode = self._zombies.pop(pid)
+
