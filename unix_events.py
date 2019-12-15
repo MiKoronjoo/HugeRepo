@@ -2338,3 +2338,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                     if self._loop.get_debug():
 
+                        logger.debug('process %s exited with returncode %s',
+
