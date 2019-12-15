@@ -1138,3 +1138,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def __init__(self, loop, pipe, protocol, waiter=None, extra=None):
+
