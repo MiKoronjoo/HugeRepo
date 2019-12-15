@@ -1778,3 +1778,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def attach_loop(self, loop):
 
+        if self._loop is not None and loop is None and self._callbacks:
+
