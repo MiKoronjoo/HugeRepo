@@ -1378,3 +1378,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             self._conn_lost += 1
 
+            # Remove writer here, _fatal_error() doesn't it
+
