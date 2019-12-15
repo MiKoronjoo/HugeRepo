@@ -2280,3 +2280,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         # long as we're able to reap a child.
 
+        while True:
+
