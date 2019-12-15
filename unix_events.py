@@ -756,3 +756,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     type(exc) is not ConnectionError):
 
+                # If we have an ENOTCONN and this isn't a first call to
+
