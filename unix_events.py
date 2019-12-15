@@ -2172,3 +2172,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def __init__(self):
 
+        super().__init__()
+
