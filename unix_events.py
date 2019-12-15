@@ -2154,3 +2154,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+class FastChildWatcher(BaseChildWatcher):
+
