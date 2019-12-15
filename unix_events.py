@@ -1594,3 +1594,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
 class AbstractChildWatcher:
 
+    '''Abstract base class for monitoring child processes.
+
