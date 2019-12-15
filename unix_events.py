@@ -956,3 +956,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             else:
 
+                info.append('idle')
+
