@@ -2196,3 +2196,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         with self._lock:
 
+            self._forks += 1
+
