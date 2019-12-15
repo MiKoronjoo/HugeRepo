@@ -2522,3 +2522,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             # (may happen if waitpid() is called elsewhere).
 
+            pid = expected_pid
+
