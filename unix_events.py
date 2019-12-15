@@ -564,3 +564,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                         os.remove(path)
 
+                except FileNotFoundError:
+
