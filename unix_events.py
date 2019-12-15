@@ -496,3 +496,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     sock.type != socket.SOCK_STREAM):
 
+                raise ValueError(
+
