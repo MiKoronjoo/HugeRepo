@@ -1966,3 +1966,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         self._loop = loop
 
+        if loop is not None:
+
