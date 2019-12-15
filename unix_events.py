@@ -2460,3 +2460,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             del self._callbacks[pid]
 
+            return True
+
