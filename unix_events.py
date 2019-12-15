@@ -690,3 +690,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                                         offset, count, blocksize, 0)
 
+        return await fut
+
