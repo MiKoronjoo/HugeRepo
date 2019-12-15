@@ -2100,3 +2100,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             # (may happen if waitpid() is called elsewhere).
 
+            pid = expected_pid
+
