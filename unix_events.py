@@ -1304,3 +1304,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
                 logger.warning('pipe closed by peer or '
 
+                               'os.write(pipe, data) raised exception.')
+
