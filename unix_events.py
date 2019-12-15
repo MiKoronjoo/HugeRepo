@@ -2560,3 +2560,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             logger.warning('Child watcher got an unexpected pid: %r',
 
+                           pid, exc_info=True)
+
