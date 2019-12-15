@@ -2096,3 +2096,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         except ChildProcessError:
 
+            # The child process is already reaped
+
