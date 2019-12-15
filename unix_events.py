@@ -42,3 +42,5 @@ from . import exceptions
 
 from . import futures
 
+from . import selector_events
+
