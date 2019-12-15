@@ -560,3 +560,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 try:
 
+                    if stat.S_ISSOCK(os.stat(path).st_mode):
+
