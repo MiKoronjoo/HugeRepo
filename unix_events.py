@@ -2102,3 +2102,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             pid = expected_pid
 
+            returncode = 255
+
