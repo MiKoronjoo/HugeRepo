@@ -270,3 +270,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         try:
 
+            del self._signal_handlers[sig]
+
