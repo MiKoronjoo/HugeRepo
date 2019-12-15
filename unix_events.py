@@ -1950,3 +1950,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             warnings.warn(
 
+                'A loop is being detached '
+
