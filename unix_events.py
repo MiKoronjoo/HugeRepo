@@ -1038,3 +1038,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def set_protocol(self, protocol):
+
