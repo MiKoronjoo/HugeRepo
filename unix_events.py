@@ -1190,3 +1190,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         # socket is closed) only works for sockets. On other platforms it
 
+        # works for pipes and sockets. (Exception: OS X 10.4?  Issue #19294.)
+
