@@ -686,3 +686,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         fut = self.create_future()
 
+        self._sock_sendfile_native_impl(fut, None, sock, fileno,
+
