@@ -1714,3 +1714,5 @@ class AbstractChildWatcher:
 
     def __exit__(self, a, b, c):
 
+        '''Exit the watcher's context'''
+
