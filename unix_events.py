@@ -2002,3 +2002,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
                 'message': 'Unknown exception in SIGCHLD handler',
 
+                'exception': exc,
+
