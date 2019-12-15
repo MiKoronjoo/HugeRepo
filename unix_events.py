@@ -2760,3 +2760,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
     '''UNIX event loop policy with a watcher for child processes.'''
 
+    _loop_factory = _UnixSelectorEventLoop
+
