@@ -1426,3 +1426,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._closing = True
 
+        if not self._buffer:
+
