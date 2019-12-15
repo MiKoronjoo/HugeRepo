@@ -506,3 +506,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         transport, protocol = await self._create_connection_transport(
 
+            sock, protocol_factory, ssl, server_hostname,
+
