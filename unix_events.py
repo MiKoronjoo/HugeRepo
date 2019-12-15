@@ -1690,3 +1690,5 @@ class AbstractChildWatcher:
 
     def is_active(self):
 
+        '''Return True if the watcher is active and is used by the event loop.
+
