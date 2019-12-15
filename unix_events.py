@@ -1114,3 +1114,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
     def _call_connection_lost(self, exc):
 
+        try:
+
