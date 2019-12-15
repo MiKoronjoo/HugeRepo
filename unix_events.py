@@ -854,3 +854,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     self.remove_writer(fd)
 
+        fut.add_done_callback(cb)
+
