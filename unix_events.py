@@ -2574,3 +2574,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                     logger.debug('process %s exited with returncode %s',
 
+                                 expected_pid, returncode)
+
