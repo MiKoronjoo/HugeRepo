@@ -2200,3 +2200,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+            return self
+
