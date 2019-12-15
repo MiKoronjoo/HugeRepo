@@ -936,3 +936,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             info.append('closed')
 
+        elif self._closing:
+
