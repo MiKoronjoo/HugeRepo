@@ -2550,3 +2550,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         try:
 
+            loop, callback, args = self._callbacks.pop(pid)
+
