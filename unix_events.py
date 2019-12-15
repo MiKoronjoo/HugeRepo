@@ -296,3 +296,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if exc.errno == errno.EINVAL:
 
+                raise RuntimeError(f'sig {sig} cannot be caught')
+
