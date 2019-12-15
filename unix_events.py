@@ -440,3 +440,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if server_hostname is None:
 
+                raise ValueError(
+
