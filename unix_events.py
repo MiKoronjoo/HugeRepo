@@ -1662,3 +1662,5 @@ class AbstractChildWatcher:
 
     def attach_loop(self, loop):
 
+        '''Attach the watcher to an event loop.
+
