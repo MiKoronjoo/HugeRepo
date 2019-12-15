@@ -298,3 +298,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise RuntimeError(f'sig {sig} cannot be caught')
 
+            else:
+
