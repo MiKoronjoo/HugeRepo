@@ -142,3 +142,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if not signum:
 
+                # ignore null bytes written by _write_to_self()
+
