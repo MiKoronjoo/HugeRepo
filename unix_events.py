@@ -1248,3 +1248,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             info.append(f'bufsize={bufsize}')
 
+        elif self._pipe is not None:
+
