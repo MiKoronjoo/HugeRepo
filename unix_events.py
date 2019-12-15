@@ -1154,3 +1154,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._conn_lost = 0
 
+        self._closing = False  # Set when close() or write_eof() called.
+
