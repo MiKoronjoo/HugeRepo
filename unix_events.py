@@ -1860,3 +1860,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
         try:
 
+            pidfd, _, _ = self._callbacks.pop(pid)
+
