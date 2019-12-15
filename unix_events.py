@@ -1912,3 +1912,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
         self._loop = None
 
+        self._callbacks = {}
+
