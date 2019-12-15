@@ -2562,3 +2562,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                            pid, exc_info=True)
 
+        else:
+
