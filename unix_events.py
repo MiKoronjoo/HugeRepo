@@ -1802,3 +1802,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
     def add_child_handler(self, pid, callback, *args):
 
+        existing = self._callbacks.get(pid)
+
