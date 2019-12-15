@@ -2186,3 +2186,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         self._callbacks.clear()
 
+        self._zombies.clear()
+
