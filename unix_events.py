@@ -246,3 +246,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if handle is None:
 
+            return  # Assume it's some race condition.
+
