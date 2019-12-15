@@ -146,3 +146,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 continue
 
+            self._handle_signal(signum)
+
