@@ -192,3 +192,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         handle = events.Handle(callback, args, self, None)
 
+        self._signal_handlers[sig] = handle
+
