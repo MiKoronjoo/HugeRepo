@@ -738,3 +738,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except (BlockingIOError, InterruptedError):
 
+            if registered_fd is None:
+
