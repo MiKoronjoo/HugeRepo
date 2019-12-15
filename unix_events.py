@@ -942,3 +942,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         info.append(f'fd={self._fileno}')
 
+        selector = getattr(self._loop, '_selector', None)
+
