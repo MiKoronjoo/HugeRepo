@@ -2000,3 +2000,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
             self._loop.call_exception_handler({
 
+                'message': 'Unknown exception in SIGCHLD handler',
+
