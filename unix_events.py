@@ -2608,3 +2608,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     It doesn't require subscription on POSIX signal
 
+    but a thread creation is not free.
+
