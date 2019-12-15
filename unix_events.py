@@ -894,3 +894,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
                 stat.S_ISSOCK(mode) or
 
+                stat.S_ISCHR(mode)):
+
