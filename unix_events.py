@@ -110,3 +110,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     def close(self):
 
+        super().close()
+
