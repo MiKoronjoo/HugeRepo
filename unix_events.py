@@ -2784,3 +2784,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
                     self._watcher.attach_loop(self._local._loop)
 
+
+
