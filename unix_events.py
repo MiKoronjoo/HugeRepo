@@ -274,3 +274,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except KeyError:
 
+            return False
+
