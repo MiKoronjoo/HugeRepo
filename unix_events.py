@@ -1316,3 +1316,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             # Attempt to send it right away first.
 
+            try:
+
