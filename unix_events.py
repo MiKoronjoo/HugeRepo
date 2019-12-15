@@ -786,3 +786,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     'os.sendfile call failed')
 
+                self._sock_sendfile_update_filepos(fileno, offset, total_sent)
+
