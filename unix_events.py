@@ -2246,3 +2246,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             except KeyError:
 
+                # The child is running.
+
