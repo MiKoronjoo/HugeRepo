@@ -2018,3 +2018,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     polling explicitly each process in the SIGCHLD handler instead of calling
 
+    os.waitpid(-1).
+
