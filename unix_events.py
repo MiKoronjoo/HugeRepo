@@ -1600,3 +1600,5 @@ class AbstractChildWatcher:
 
     report their termination or interruption by a signal.
 
+    New callbacks are registered with .add_child_handler(). Starting a new
+
