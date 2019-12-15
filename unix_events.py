@@ -1964,3 +1964,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+        self._loop = loop
+
