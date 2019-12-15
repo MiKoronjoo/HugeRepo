@@ -2472,3 +2472,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         # Don't save the loop but initialize itself if called first time
 
+        # The reason to do it here is that attach_loop() is called from
+
