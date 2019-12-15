@@ -890,3 +890,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         mode = os.fstat(self._fileno).st_mode
 
+        if not (stat.S_ISFIFO(mode) or
+
