@@ -2538,3 +2538,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             if pid == 0:
 
+                # The child process is still alive.
+
