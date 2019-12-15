@@ -72,3 +72,5 @@ __all__ = (
 
 
 
+if sys.platform == 'win32':  # pragma: no cover
+
