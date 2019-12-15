@@ -1784,3 +1784,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
                 'A loop is being detached '
 
+                'from a child watcher with pending handlers',
+
