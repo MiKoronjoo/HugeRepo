@@ -1350,3 +1350,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         self._buffer += data
 
+        self._maybe_pause_protocol()
+
