@@ -1558,3 +1558,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             # socket (which we use in order to detect closing of the
 
+            # other end).  Notably this is needed on AIX, and works
+
