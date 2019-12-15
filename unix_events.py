@@ -674,3 +674,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except OSError:
 
+            raise exceptions.SendfileNotAvailableError('not a regular file')
+
