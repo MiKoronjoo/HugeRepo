@@ -306,3 +306,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         if not self._signal_handlers:
 
+            try:
+
