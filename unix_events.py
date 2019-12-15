@@ -1070,3 +1070,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             _warn(f'unclosed transport {self!r}', ResourceWarning, source=self)
 
+            self._pipe.close()
+
