@@ -1568,3 +1568,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             self._proc = subprocess.Popen(
 
+                args, shell=shell, stdin=stdin, stdout=stdout, stderr=stderr,
+
