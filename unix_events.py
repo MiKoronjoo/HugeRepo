@@ -710,3 +710,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # order to simplify the common case.
 
+            self.remove_writer(registered_fd)
+
