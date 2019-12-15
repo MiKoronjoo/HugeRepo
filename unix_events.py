@@ -580,3 +580,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             try:
 
+                sock.bind(path)
+
