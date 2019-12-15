@@ -582,3 +582,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 sock.bind(path)
 
+            except OSError as exc:
+
