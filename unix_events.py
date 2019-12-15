@@ -628,3 +628,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         sock.setblocking(False)
 
+        server = base_events.Server(self, [sock], protocol_factory,
+
