@@ -780,3 +780,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # file, in which case we'll fall back on using
 
+                # plain send().
+
