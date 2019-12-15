@@ -2288,3 +2288,5 @@ class FastChildWatcher(BaseChildWatcher):
 
             except ChildProcessError:
 
+                # No more child processes exist.
+
