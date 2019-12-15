@@ -1770,3 +1770,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
 
 
+    def close(self):
+
