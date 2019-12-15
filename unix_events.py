@@ -2194,3 +2194,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def __enter__(self):
 
+        with self._lock:
+
