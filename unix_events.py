@@ -1274,3 +1274,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             logger.info('%r was closed by peer', self)
 
+        if self._buffer:
+
