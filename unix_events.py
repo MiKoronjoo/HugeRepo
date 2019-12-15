@@ -1556,3 +1556,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             # support selecting read events on the write end of a
 
+            # socket (which we use in order to detect closing of the
+
