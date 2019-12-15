@@ -1888,3 +1888,5 @@ def _compute_returncode(status):
 
         # The child process exited (e.g sys.exit()).
 
+        return os.WEXITSTATUS(status)
+
