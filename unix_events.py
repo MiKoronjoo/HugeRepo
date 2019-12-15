@@ -1566,3 +1566,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
         try:
 
+            self._proc = subprocess.Popen(
+
