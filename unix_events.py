@@ -2572,3 +2572,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
                 if debug_log and loop.get_debug():
 
+                    logger.debug('process %s exited with returncode %s',
+
