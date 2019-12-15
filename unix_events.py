@@ -568,3 +568,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     pass
 
+                except OSError as err:
+
