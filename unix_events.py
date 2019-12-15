@@ -2014,3 +2014,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
     ''''Safe' child watcher implementation.
 
+    This implementation avoids disrupting other code spawning processes by
+
