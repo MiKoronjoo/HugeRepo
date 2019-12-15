@@ -888,3 +888,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+        mode = os.fstat(self._fileno).st_mode
+
