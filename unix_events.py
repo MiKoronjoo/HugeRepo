@@ -2330,3 +2330,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                                          pid, returncode)
 
+                        continue
+
