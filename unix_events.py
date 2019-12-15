@@ -672,3 +672,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             fsize = os.fstat(fileno).st_size
 
+        except OSError:
+
