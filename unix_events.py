@@ -1936,3 +1936,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
     def _do_waitpid_all(self):
 
+        raise NotImplementedError()
+
