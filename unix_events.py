@@ -2806,3 +2806,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
         if (self._watcher is not None and
 
+                threading.current_thread() is threading.main_thread()):
+
