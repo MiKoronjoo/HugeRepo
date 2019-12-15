@@ -920,3 +920,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if waiter is not None:
 
+            # only wake up the waiter when connection_made() has been called
+
