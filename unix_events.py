@@ -2766,3 +2766,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
     def __init__(self):
 
+        super().__init__()
+
