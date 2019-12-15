@@ -704,3 +704,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # Remove the callback early.  It should be rare that the
 
+            # selector says the fd is ready but the call still returns
+
