@@ -948,3 +948,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             polling = selector_events._test_selector_event(
 
+                selector, self._fileno, selectors.EVENT_READ)
+
