@@ -2584,3 +2584,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
         try:
 
+            self._do_waitpid_all()
+
