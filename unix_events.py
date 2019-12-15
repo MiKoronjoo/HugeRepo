@@ -2814,3 +2814,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
     def get_child_watcher(self):
 
+        '''Get the watcher for child processes.
+
