@@ -284,3 +284,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         else:
 
+            handler = signal.SIG_DFL
+
