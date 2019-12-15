@@ -656,3 +656,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except AttributeError:
 
+            raise exceptions.SendfileNotAvailableError(
+
