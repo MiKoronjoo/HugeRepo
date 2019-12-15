@@ -368,3 +368,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if not watcher.is_active():
 
+                # Check early.
+
