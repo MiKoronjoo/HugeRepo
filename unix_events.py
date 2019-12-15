@@ -12,3 +12,5 @@ import os
 
 import selectors
 
+import signal
+
