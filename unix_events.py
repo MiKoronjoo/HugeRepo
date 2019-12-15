@@ -2690,3 +2690,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         # The method is no-op but is implemented because
 
+        # abstract base classe requires it
+
