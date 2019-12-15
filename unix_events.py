@@ -1828,3 +1828,5 @@ class PidfdChildWatcher(AbstractChildWatcher):
 
             _, status = os.waitpid(pid, 0)
 
+        except ChildProcessError:
+
