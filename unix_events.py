@@ -622,3 +622,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError(
 
+                    f'A UNIX Domain Stream Socket was expected, got {sock!r}')
+
