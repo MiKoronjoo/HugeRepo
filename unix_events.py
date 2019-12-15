@@ -2724,3 +2724,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             logger.warning(
 
+                'Unknown child process pid %d, will report returncode 255',
+
