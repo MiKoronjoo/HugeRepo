@@ -1648,3 +1648,5 @@ class AbstractChildWatcher:
 
     def remove_child_handler(self, pid):
 
+        '''Removes the handler for process 'pid'.
+
