@@ -2388,3 +2388,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     # and doesn't accept explicit loop argument
 
+    # for add_child_handler()/remove_child_handler()
+
