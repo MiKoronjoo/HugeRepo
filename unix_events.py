@@ -884,3 +884,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         self._closing = False
 
+        self._paused = False
+
