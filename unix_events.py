@@ -94,3 +94,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
     '''Unix event loop.
 
+    Adds signal handling and UNIX Domain Socket support to SelectorEventLoop.
+
