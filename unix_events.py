@@ -802,3 +802,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         except BaseException as exc:
 
+            self._sock_sendfile_update_filepos(fileno, offset, total_sent)
+
