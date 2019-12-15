@@ -2064,3 +2064,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
         try:
 
+            del self._callbacks[pid]
+
