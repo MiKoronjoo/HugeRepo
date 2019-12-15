@@ -2184,3 +2184,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     def close(self):
 
+        self._callbacks.clear()
+
