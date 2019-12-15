@@ -1312,3 +1312,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+        if not self._buffer:
+
