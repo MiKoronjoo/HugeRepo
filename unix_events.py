@@ -1434,3 +1434,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def set_protocol(self, protocol):
+
