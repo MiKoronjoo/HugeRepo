@@ -1116,3 +1116,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         try:
 
+            self._protocol.connection_lost(exc)
+
