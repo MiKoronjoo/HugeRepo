@@ -1894,3 +1894,5 @@ def _compute_returncode(status):
 
         # The child exited, but we don't understand its status.
 
+        # This shouldn't happen, but if it does, let's just
+
