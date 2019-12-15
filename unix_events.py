@@ -2104,3 +2104,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             returncode = 255
 
+            logger.warning(
+
