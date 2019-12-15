@@ -2256,3 +2256,5 @@ class FastChildWatcher(BaseChildWatcher):
 
         # The child is dead already. We can fire the callback.
 
+        callback(pid, returncode, *args)
+
