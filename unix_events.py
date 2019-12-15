@@ -1074,3 +1074,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
 
 
+    def _fatal_error(self, exc, message='Fatal error on pipe transport'):
+
