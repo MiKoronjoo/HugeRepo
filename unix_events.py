@@ -1060,3 +1060,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if not self._closing:
 
+            self._close(None)
+
