@@ -670,3 +670,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         try:
 
+            fsize = os.fstat(fileno).st_size
+
