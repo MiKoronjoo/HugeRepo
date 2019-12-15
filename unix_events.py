@@ -308,3 +308,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             try:
 
+                signal.set_wakeup_fd(-1)
+
