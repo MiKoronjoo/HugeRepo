@@ -2322,3 +2322,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                         self._zombies[pid] = returncode
 
+                        if self._loop.get_debug():
+
