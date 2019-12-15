@@ -244,3 +244,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         handle = self._signal_handlers.get(sig)
 
+        if handle is None:
+
