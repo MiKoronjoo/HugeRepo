@@ -84,3 +84,5 @@ def _sighandler_noop(signum, frame):
 
     '''Dummy signal handler.'''
 
+    pass
+
