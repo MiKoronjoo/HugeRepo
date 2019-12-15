@@ -2362,3 +2362,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 class MultiLoopChildWatcher(AbstractChildWatcher):
 
+    '''A watcher that doesn't require running loop in the main thread.
+
