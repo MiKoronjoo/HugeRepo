@@ -2674,3 +2674,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
                                   name=f'waitpid-{next(self._pid_counter)}',
 
+                                  args=(loop, pid, callback, args),
+
