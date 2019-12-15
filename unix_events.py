@@ -156,3 +156,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         Raise ValueError if the signal number is invalid or uncatchable.
 
+        Raise RuntimeError if there is a problem setting up the handler.
+
