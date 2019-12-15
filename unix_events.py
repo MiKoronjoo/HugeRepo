@@ -2704,3 +2704,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     def _do_waitpid(self, loop, expected_pid, callback, args):
 
+        assert expected_pid > 0
+
