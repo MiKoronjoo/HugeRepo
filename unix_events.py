@@ -1586,3 +1586,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
                 stdin.close()
 
+                stdin_w.close()
+
