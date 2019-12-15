@@ -384,3 +384,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             transp = _UnixSubprocessTransport(self, protocol, args, shell,
 
+                                              stdin, stdout, stderr, bufsize,
+
