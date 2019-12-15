@@ -454,3 +454,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError(
 
+                    'ssl_handshake_timeout is only meaningful with ssl')
+
