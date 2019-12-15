@@ -1958,3 +1958,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 
 
+        if self._loop is not None:
+
