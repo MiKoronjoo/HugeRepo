@@ -2054,3 +2054,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
 
 
+        # Prevent a race condition in case the child is already terminated.
+
