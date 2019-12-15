@@ -1068,3 +1068,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if self._pipe is not None:
 
+            _warn(f'unclosed transport {self!r}', ResourceWarning, source=self)
+
