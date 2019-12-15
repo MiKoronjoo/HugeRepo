@@ -2332,3 +2332,5 @@ class FastChildWatcher(BaseChildWatcher):
 
                         continue
 
+                    callback = None
+
