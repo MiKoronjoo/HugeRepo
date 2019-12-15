@@ -1454,3 +1454,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def close(self):
 
+        if self._pipe is not None and not self._closing:
+
