@@ -2526,3 +2526,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             returncode = 255
 
+            logger.warning(
+
