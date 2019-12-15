@@ -658,3 +658,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise exceptions.SendfileNotAvailableError(
 
+                'os.sendfile() is not available')
+
