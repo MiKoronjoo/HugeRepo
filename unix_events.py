@@ -1466,3 +1466,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         if self._pipe is not None:
 
+            _warn(f'unclosed transport {self!r}', ResourceWarning, source=self)
+
