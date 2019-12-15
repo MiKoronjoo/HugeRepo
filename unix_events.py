@@ -434,3 +434,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             ssl_handshake_timeout=None):
 
+        assert server_hostname is None or isinstance(server_hostname, str)
+
