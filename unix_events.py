@@ -58,3 +58,5 @@ __all__ = (
 
     'SelectorEventLoop',
 
+    'AbstractChildWatcher', 'SafeChildWatcher',
+
