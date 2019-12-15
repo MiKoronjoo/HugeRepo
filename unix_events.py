@@ -1354,3 +1354,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
 
 
+    def _write_ready(self):
+
