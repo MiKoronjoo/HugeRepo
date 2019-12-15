@@ -2720,3 +2720,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             pid = expected_pid
 
+            returncode = 255
+
