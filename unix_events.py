@@ -2012,3 +2012,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
 class SafeChildWatcher(BaseChildWatcher):
 
+    ''''Safe' child watcher implementation.
+
