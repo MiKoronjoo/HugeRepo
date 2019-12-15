@@ -1982,3 +1982,5 @@ class BaseChildWatcher(AbstractChildWatcher):
 
     def _sig_chld(self):
 
+        try:
+
