@@ -376,3 +376,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # is not ready to handle it.
 
+                raise RuntimeError('asyncio.get_child_watcher() is not activated, '
+
