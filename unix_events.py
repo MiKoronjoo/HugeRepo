@@ -1564,3 +1564,5 @@ class _UnixSubprocessTransport(base_subprocess.BaseSubprocessTransport):
 
             stdin, stdin_w = socket.socketpair()
 
+        try:
+
