@@ -2780,3 +2780,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
                 self._watcher = ThreadedChildWatcher()
 
+                if threading.current_thread() is threading.main_thread():
+
