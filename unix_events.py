@@ -1366,3 +1366,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         except (BlockingIOError, InterruptedError):
 
+            pass
+
