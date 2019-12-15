@@ -544,3 +544,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 raise ValueError(
 
+                    'path and sock can not be specified at the same time')
+
