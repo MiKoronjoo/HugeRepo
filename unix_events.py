@@ -1706,3 +1706,5 @@ class AbstractChildWatcher:
 
         '''Enter the watcher's context and allow starting new processes
 
+        This function must return self'''
+
