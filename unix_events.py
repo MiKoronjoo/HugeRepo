@@ -2506,3 +2506,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
 
 
+    def _do_waitpid(self, expected_pid):
+
