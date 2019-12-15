@@ -2404,3 +2404,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
     def is_active(self):
 
+        return self._saved_sighandler is not None
+
