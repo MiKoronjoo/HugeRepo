@@ -2166,3 +2166,5 @@ class FastChildWatcher(BaseChildWatcher):
 
     There is no noticeable overhead when handling a big number of children
 
+    (O(1) each time a child terminates).
+
