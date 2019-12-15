@@ -952,3 +952,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             if polling:
 
+                info.append('polling')
+
