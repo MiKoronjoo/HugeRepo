@@ -1082,3 +1082,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             if self._loop.get_debug():
 
+                logger.debug('%r: %s', self, message, exc_info=True)
+
