@@ -1608,3 +1608,5 @@ class AbstractChildWatcher:
 
     prevent a race condition in some implementations).
 
+    Example:
+
