@@ -500,3 +500,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                     f'A UNIX Domain Stream Socket was expected, got {sock!r}')
 
+            sock.setblocking(False)
+
