@@ -82,3 +82,5 @@ if sys.platform == 'win32':  # pragma: no cover
 
 def _sighandler_noop(signum, frame):
 
+    '''Dummy signal handler.'''
+
