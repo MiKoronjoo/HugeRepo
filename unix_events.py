@@ -408,3 +408,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 transp.close()
 
+                await transp._wait()
+
