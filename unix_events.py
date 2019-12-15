@@ -1610,3 +1610,5 @@ class AbstractChildWatcher:
 
     Example:
 
+        with watcher:
+
