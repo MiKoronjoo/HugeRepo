@@ -724,3 +724,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             if blocksize <= 0:
 
+                self._sock_sendfile_update_filepos(fileno, offset, total_sent)
+
