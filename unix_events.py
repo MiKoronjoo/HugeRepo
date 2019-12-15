@@ -1362,3 +1362,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         try:
 
+            n = os.write(self._fileno, self._buffer)
+
