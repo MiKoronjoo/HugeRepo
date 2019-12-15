@@ -1526,3 +1526,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         try:
 
+            self._protocol.connection_lost(exc)
+
