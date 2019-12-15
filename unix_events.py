@@ -2604,3 +2604,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
     The watcher uses a thread per process
 
+    for waiting for the process finish.
+
