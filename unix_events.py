@@ -706,3 +706,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # selector says the fd is ready but the call still returns
 
+            # EAGAIN, and I am willing to take a hit in that case in
+
