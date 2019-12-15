@@ -36,3 +36,5 @@ from . import constants
 
 from . import coroutines
 
+from . import events
+
