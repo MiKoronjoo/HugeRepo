@@ -154,3 +154,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         '''Add a handler for a signal.  UNIX only.
 
+        Raise ValueError if the signal number is invalid or uncatchable.
+
