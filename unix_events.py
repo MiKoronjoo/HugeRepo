@@ -324,3 +324,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
         '''Internal helper to validate a signal.
 
+        Raise ValueError if the signal number is invalid or uncatchable.
+
