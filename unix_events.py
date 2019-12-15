@@ -1224,3 +1224,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             info.append('closing')
 
+        info.append(f'fd={self._fileno}')
+
