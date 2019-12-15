@@ -1716,3 +1716,5 @@ class AbstractChildWatcher:
 
         '''Exit the watcher's context'''
 
+        raise NotImplementedError()
+
