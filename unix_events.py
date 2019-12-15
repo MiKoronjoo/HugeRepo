@@ -962,3 +962,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             info.append('open')
 
+        else:
+
