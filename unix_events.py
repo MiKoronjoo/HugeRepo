@@ -520,3 +520,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             sock=None, backlog=100, ssl=None,
 
+            ssl_handshake_timeout=None,
+
