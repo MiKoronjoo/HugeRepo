@@ -2484,3 +2484,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             if self._saved_sighandler is None:
 
+                logger.warning('Previous SIGCHLD handler was set by non-Python code, '
+
