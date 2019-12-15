@@ -2830,3 +2830,5 @@ class _UnixDefaultEventLoopPolicy(events.BaseDefaultEventLoopPolicy):
 
 
 
+    def set_child_watcher(self, watcher):
+
