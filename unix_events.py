@@ -1028,3 +1028,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
             return
 
+        self._paused = False
+
