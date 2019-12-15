@@ -1080,3 +1080,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         if (isinstance(exc, OSError) and exc.errno == errno.EIO):
 
+            if self._loop.get_debug():
+
