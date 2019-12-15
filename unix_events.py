@@ -1322,3 +1322,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             except (BlockingIOError, InterruptedError):
 
+                n = 0
+
