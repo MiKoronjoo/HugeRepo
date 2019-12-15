@@ -872,3 +872,5 @@ class _UnixReadPipeTransport(transports.ReadTransport):
 
         super().__init__(extra)
 
+        self._extra['pipe'] = pipe
+
