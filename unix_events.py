@@ -1292,3 +1292,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
             data = memoryview(data)
 
+        if not data:
+
