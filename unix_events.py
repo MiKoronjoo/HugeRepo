@@ -2108,3 +2108,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
                 'Unknown child process pid %d, will report returncode 255',
 
+                pid)
+
