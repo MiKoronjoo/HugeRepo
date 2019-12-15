@@ -2126,3 +2126,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
                 logger.debug('process %s exited with returncode %s',
 
+                             expected_pid, returncode)
+
