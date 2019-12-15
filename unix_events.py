@@ -668,3 +668,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             raise exceptions.SendfileNotAvailableError('not a regular file')
 
+        try:
+
