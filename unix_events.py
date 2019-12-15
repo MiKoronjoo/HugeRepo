@@ -1286,3 +1286,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
     def write(self, data):
 
+        assert isinstance(data, (bytes, bytearray, memoryview)), repr(data)
+
