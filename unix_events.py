@@ -372,3 +372,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
                 # Raising exception before process creation
 
+                # prevents subprocess execution if the watcher
+
