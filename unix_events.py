@@ -2692,3 +2692,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
         # abstract base classe requires it
 
+        return True
+
