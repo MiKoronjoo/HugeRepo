@@ -2732,3 +2732,5 @@ class ThreadedChildWatcher(AbstractChildWatcher):
 
             returncode = _compute_returncode(status)
 
+            if loop.get_debug():
+
