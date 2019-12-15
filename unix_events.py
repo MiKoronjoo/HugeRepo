@@ -1660,3 +1660,5 @@ class AbstractChildWatcher:
 
 
 
+    def attach_loop(self, loop):
+
