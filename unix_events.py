@@ -2558,3 +2558,5 @@ class MultiLoopChildWatcher(AbstractChildWatcher):
 
             # after os.waitpid() returns.
 
+            logger.warning('Child watcher got an unexpected pid: %r',
+
