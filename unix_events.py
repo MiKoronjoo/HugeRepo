@@ -2302,3 +2302,5 @@ class FastChildWatcher(BaseChildWatcher):
 
 
 
+                returncode = _compute_returncode(status)
+
