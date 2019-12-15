@@ -556,3 +556,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
             # Check for abstract socket.  and  paths are supported.
 
+            if path[0] not in (0, '\x00'):
+
