@@ -2068,3 +2068,5 @@ class SafeChildWatcher(BaseChildWatcher):
 
             return True
 
+        except KeyError:
+
