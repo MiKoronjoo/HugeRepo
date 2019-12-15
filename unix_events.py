@@ -1164,3 +1164,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         is_fifo = stat.S_ISFIFO(mode)
 
+        is_socket = stat.S_ISSOCK(mode)
+
