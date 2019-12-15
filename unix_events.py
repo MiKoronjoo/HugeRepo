@@ -336,3 +336,5 @@ class _UnixSelectorEventLoop(selector_events.BaseSelectorEventLoop):
 
 
 
+        if sig not in signal.valid_signals():
+
