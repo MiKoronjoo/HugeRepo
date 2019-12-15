@@ -1530,3 +1530,5 @@ class _UnixWritePipeTransport(transports._FlowControlMixin,
 
         finally:
 
+            self._pipe.close()
+
